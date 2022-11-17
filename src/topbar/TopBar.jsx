@@ -72,7 +72,7 @@ export default function Topbar() {
         <div className={`dropdown-menu1 ${open? 'active' : 'inactive'}`} >
           <h3 className='uName'>Nene Yashiro<br/><span className='uType'>Member</span></h3>
           <ul>
-            <div>
+            <div onClick={()=>{navigate("/MemberPanel")}}>
               <DropdownItem img = {user} text = {"My Profile"}/>
             </div>
             <div>

@@ -1,0 +1,79 @@
+.sideBar{
+    background-color: rgb(248, 245, 227);
+    flex: 2;
+    color: black;  
+}
+.memberSideBar{
+    
+    display: inline;
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+.memberSideBar li{
+    color: rgb(89, 89, 89);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 1.5vw;
+    font-size: max(1.5vw, min(10px));
+    cursor: pointer;
+    border-bottom: 1px solid lightgray;
+}
+.memberSideBar li:hover{
+    background-color: rgb(236, 235, 226);
+}
+.memberPanel{
+    flex: 8;
+    width: 100%;
+    overflow-y: scroll;
+}
+.profileImg{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    margin: 1vw;
+    border: 0.3vw solid rgb(107, 105, 105)
+}
+
+.profileForm{
+    display: flex;
+    background-color: rgba(234, 232, 199, 0.2);
+    width: 80%;
+    padding: 2vw;
+    margin: 2vw;
+    border-radius: 1vw;
+}
+.table{
+    color: rgb(89, 89, 89);
+    margin-right: 0;
+    margin-top: -1.2vw;
+    /* border-style: none; */
+    margin-left: 3vw ;
+    font-family: 'Poppins', sans-serif;
+}
+td, th{
+    font-size: 1.2vw;
+    border-style: none !important;
+    text-align: left;
+    width: min-content;
+}
+.lbl{
+    
+    font-weight: 800;
+    width: 1%;
+    white-space: nowrap;
+}
+.editBtn{
+    width: vw;
+    cursor: pointer;
+    text-align: right;
+}
+.fa-pen{
+    color: rgb(89, 89, 89);
+}
+.fa-pen:hover{
+    color: rgb(117, 117, 117);
+    
+}
