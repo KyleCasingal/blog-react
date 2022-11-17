@@ -1,0 +1,86 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    margin-top: -6vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: url("../img/landingBG.png") no-repeat center center;
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
+  
+  .registerTitle {
+    margin-top: 4vw;
+    font-size: 3vw;
+  }
+  
+  .registerForm {
+    width: 20vw;
+    font-size: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 3vw;
+    padding-right:3vw;
+    border-radius: 0.8vw;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-top: px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+  }
+  
+  .registerForm > label {
+    margin: 0vw 0;
+  }
+
+  .registerForm label{
+    font-size: 1vw;
+  }
+  
+  .registerInput {
+    padding: 0.2vw;
+    background-color: white;
+    border: none;
+    border-radius: 0.5vw;
+    font-size: 0.8vw;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .registerButton {
+    margin-top: 1vw;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 0.5vw;
+    padding: 0.6vw;
+    font-size: 1vw;
+  }
+  
+  .registerButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(252, 173, 173);
+  }
+  
+
+  input{
+    border-radius: 0.5vw;
+    height: 1vw;
+}
+
+.guestButtonRegister{
+  margin-top: 1vw;
+  cursor: pointer;
+  background-color: darkseagreen;
+  border: none;
+  color: white;
+  border-radius: 0.5vw;
+  padding: 0.6vw;
+  font-size: 1vw;
+}
+  

@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import BlogHome from "./blogHome/BlogHome";
+import Login from "./login/Login";
+import Register from "./register/Register";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Landing from "./landingPage/Landing";
+import BlogWrite from "./blogWrite/BlogWrite";
+import Amenities from "./amenities/amenities";
+import AmenitiesGuest from "./amenitiesGuest/amenitiesGuest";
+import TreasurerPanel from "./treasurerPanel/treasurerPanel";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Landing/>}></Route>
+          <Route path="/Register" element={<Register/>}></Route>
+          <Route path="/Login" element={<Login/>}></Route>
+          <Route path="/BlogHome" element={<BlogHome/>}></Route>
+          <Route path="/BlogWrite" element={<BlogWrite/>}></Route>
+          <Route path="/Amenities" element={<Amenities/>}></Route>
+          <Route path="/AmenitiesGuest" element={<AmenitiesGuest/>}></Route>
+          <Route path="/TreasurerPanel" element={<TreasurerPanel/>}></Route>
+        </Routes>
+      </Router>
     </div>
+    
   );
 }
 
