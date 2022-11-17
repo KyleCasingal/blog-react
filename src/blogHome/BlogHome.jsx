@@ -4,6 +4,7 @@ import "./BlogHome.css";
 
 
 export default function BlogHome() {
+  
 function darkMode(){
   document.body.classList.toggle('dark');
 

@@ -4,25 +4,25 @@ import "./treasurerPanel.css";
 
 
 export default function TreasurerPanel() {
-    const facilty = document.getElementById('facilty');
-    const dues =  document.getElementById('dues');
+
     
-    facilty.onclick =  function faciltyRent(){
-    const facility = document.getElementById('facilityRenting');
-    const dues = document.getElementById('monthlyDues');
     
-    facility.style.display = 'block';
-    dues.style.display = 'none';
+    function faciltyRent(){
+      var facility = document.getElementById('facilityRenting');
+      var dues = document.getElementById('monthlyDues');
+      
+      facility.style.display = 'block';
+      dues.style.display = 'none';
 
    
     }
 
-    dues.onclick = function monthlyDues(){
-        const facility = document.getElementById('facilityRenting');
-        const dues = document.getElementById('monthlyDues');
-        
-        facility.style.display = 'none';
-        dues.style.display = 'block';
+    function monthlyDues(){
+      var facility = document.getElementById('facilityRenting');
+      var dues = document.getElementById('monthlyDues');
+      
+      facility.style.display = 'none';
+      dues.style.display = 'block';
     }
     
   return (
@@ -32,8 +32,8 @@ export default function TreasurerPanel() {
       
         <div className="sideBar">
         <ul className="treasurerSideBar">
-            <li id="facilty">Facility Renting</li>
-            <li id="dues">Monthly Dues</li>
+            <li id="facilty" onClick={()=>{faciltyRent()}}>Facility Renting</li>
+            <li id="dues" onClick={()=>{monthlyDues()}}>Monthly Dues</li>
         </ul>
         </div>
     <div className="treasurerPanel">
@@ -157,7 +157,9 @@ export default function TreasurerPanel() {
       </div>
     </div>
     
-    <Footer/>
+    <Footer/> 
+    
     </>
+   
   )
 }

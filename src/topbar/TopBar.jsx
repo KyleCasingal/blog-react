@@ -8,7 +8,8 @@ import logout from '../img/log-out.png';
 import "./topbar.css";
 import React, {useState, useEffect, useRef} from 'react';
 import { useNavigate } from 'react-router-dom';
-import logoSVgray from "../img/logoSVgray.png"
+import logoSVgray from "../img/logoSVgray.png";
+
 export default function Topbar() {
   
 
