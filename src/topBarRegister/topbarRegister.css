@@ -13,8 +13,7 @@
   backdrop-filter: blur(5px);
 }
 
-
-.topLeftRegister{
+.topLeftRegister {
   flex: 3;
   display: flex;
   align-items: center;
@@ -22,30 +21,26 @@
   margin-left: 2vw;
 }
 
-.topLeftRegister img{
+.topLeftRegister img {
   max-height: 5vw;
 }
 
-.topRightRegister{
+.topRightRegister {
   color: white;
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: flex-end; 
+  justify-content: flex-end;
   padding-right: 2vw;
-
 }
-.topRightRegister p{
+.topRightRegister p {
   font-size: 1vw;
   margin: 0;
 }
 
-
-
 .topCenter {
   flex: 60;
-  
 }
 
 .topIconRegister {
@@ -93,7 +88,7 @@
   margin-left: 15px;
 }
 
-.dropdown-menu{
+.dropdown-menu {
   box-shadow: 0px 1px 10px gray;
   position: absolute;
   top: 90px;
@@ -104,8 +99,8 @@
   width: 200px;
 }
 
-.dropdown-menu::before{
-  content: '';
+.dropdown-menu::before {
+  content: "";
   position: absolute;
   top: -5px;
   right: 20px;
@@ -115,22 +110,21 @@
   transform: rotate(45deg);
 }
 
-.dropdown-menu.active{
+.dropdown-menu.active {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
   transition: var(--speed) ease;
 }
 
-.dropdown-menu.inactive{
+.dropdown-menu.inactive {
   opacity: 0;
   visibility: hidden;
   transform: translateY(-20px);
   transition: var(--speed) ease;
 }
 
-
-h3{
+h3 {
   width: 100%;
   text-align: center;
   font-size: 18px;
@@ -141,46 +135,46 @@ h3{
   line-height: 1.2rem;
 }
 
-h3 span{
+h3 span {
   font-size: 14px;
   color: var(--secondary-text-color);
   font-weight: 400;
 }
 
-.dropdown-menu ul li{
-  padding: 10px  0;
+.dropdown-menu ul li {
+  padding: 10px 0;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.dropdown-menu ul li:hover a{
+.dropdown-menu ul li:hover a {
   color: rgb(212, 33, 9);
   cursor: pointer;
 }
 
-.dropdown-menu ul li:hover img{
+.dropdown-menu ul li:hover img {
   opacity: 1;
   cursor: pointer;
 }
 
-.dropdownItem{
+.dropdownItem {
   display: flex;
   margin: 10px auto;
 }
 
-.dropdownItem img{
+.dropdownItem img {
   max-width: 25px;
   margin-right: 10px;
   opacity: 0.5;
   transition: var(--speed);
 }
 
-.dropdownItem a{
+.dropdownItem a {
   max-width: 100px;
   margin-left: 10px;
   transition: var(--speed);
 }
 
-.loginButtonReg{
+.loginButtonReg {
   margin-top: 0;
   font-size: 0.9vw;
   cursor: pointer;
@@ -191,5 +185,3 @@ h3 span{
   border-radius: 0.6vw;
   padding: 0.8em;
 }
-
-

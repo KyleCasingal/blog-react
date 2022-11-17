@@ -1,55 +1,55 @@
-input{
-    padding: 0.5vw;
-    max-width: 50vw;
-    height: 2vw;
-    font-size: 1.2vw;
-    border: 0;
-    border-radius: 0.8vw;
-    font-family: 'Newsreader', serif;
-    margin-bottom: 1vw;
+input {
+  padding: 0.5vw;
+  max-width: 50vw;
+  height: 2vw;
+  font-size: 1.2vw;
+  border: 0;
+  border-radius: 0.8vw;
+  font-family: "Newsreader", serif;
+  margin-bottom: 1vw;
 }
-select{
-    max-width: 50vw;
-    height: 2vw;
-    font-size: 1.2vw;
-    border: 0;
-    border-radius: 0.8vw;
-    font-family: 'Newsreader', serif;
-    margin-bottom: 1vw;
+select {
+  max-width: 50vw;
+  height: 2vw;
+  font-size: 1.2vw;
+  border: 0;
+  border-radius: 0.8vw;
+  font-family: "Newsreader", serif;
+  margin-bottom: 1vw;
 }
-input[type="file"]{
-    display: none;
+input[type="file"] {
+  display: none;
 }
-label{
-    font-size: 2vw;
-    padding: 0.5vw;
+label {
+  font-size: 2vw;
+  padding: 0.5vw;
 }
-.amenities{
-    display: flex;
+.amenities {
+  display: flex;
 }
-.amenitiesForm{
-    display: flex;
-    justify-content: center;
-    padding: 2vw;
-    margin: 1.5vw;
-    width: 60%;
-    border-radius: 1vw;
-    flex-direction: column;
-    background-color: rgba(234, 232, 199, 0.2);
-    font-family: 'Newsreader', serif;
+.amenitiesForm {
+  display: flex;
+  justify-content: center;
+  padding: 2vw;
+  margin: 1.5vw;
+  width: 60%;
+  border-radius: 1vw;
+  flex-direction: column;
+  background-color: rgba(234, 232, 199, 0.2);
+  font-family: "Newsreader", serif;
 }
-.paymentForm{
-    display: flex;
-    padding: 2vw;
-    margin: 1.5vw;
-    width: 40%;
-    border-radius: 1vw;
-    flex-direction: column;
-    background-color: rgba(234, 232, 199, 0.2);
-    font-family: 'Newsreader', serif;
+.paymentForm {
+  display: flex;
+  padding: 2vw;
+  margin: 1.5vw;
+  width: 40%;
+  border-radius: 1vw;
+  flex-direction: column;
+  background-color: rgba(234, 232, 199, 0.2);
+  font-family: "Newsreader", serif;
 }
-.imagePrev{
-    max-width: 30vw;
-    max-height: 20vw;
-    margin-bottom: 1vw;
+.imagePrev {
+  max-width: 30vw;
+  max-height: 20vw;
+  margin-bottom: 1vw;
 }

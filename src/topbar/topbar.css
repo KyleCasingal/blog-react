@@ -13,8 +13,7 @@
   backdrop-filter: blur(5px);
 }
 
-
-.topLeft{
+.topLeft {
   flex: 3;
   display: flex;
   align-items: center;
@@ -22,11 +21,11 @@
   margin-left: 1vw;
 }
 
-.topLeft img{
+.topLeft img {
   max-height: 4vw;
 }
 
-.topRight{
+.topRight {
   flex: 3;
   display: flex;
   align-items: center;
@@ -49,7 +48,7 @@
 
 .topImg1 {
   width: 3vw;
-  
+
   border-radius: 50%;
   object-fit: cover;
   cursor: pointer;
@@ -64,7 +63,7 @@
   color: rgb(89, 89, 89);
 }
 
-.topListItem1{
+.topListItem1 {
   color: rgb(89, 89, 89);
   padding: 0.5vw;
   margin-right: 0.1vw;
@@ -85,7 +84,7 @@
   margin-left: 15px;
 }
 
-.dropdown-menu1{
+.dropdown-menu1 {
   box-shadow: 0px 1px 10px gray;
   position: absolute;
   align-content: center;
@@ -98,8 +97,8 @@
   width: 20vw;
 }
 
-.dropdown-menu1::before{
-  content: '';
+.dropdown-menu1::before {
+  content: "";
   position: absolute;
   top: -5vw;
   right: 2vw;
@@ -109,22 +108,21 @@
   transform: rotate(45deg);
 }
 
-.dropdown-menu1.active{
+.dropdown-menu1.active {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
   transition: var(--speed) ease;
 }
 
-.dropdown-menu1.inactive{
+.dropdown-menu1.inactive {
   opacity: 0;
   visibility: hidden;
   transform: translateY(-20px);
   transition: var(--speed) ease;
 }
 
-
-.uName{
+.uName {
   width: 100%;
   text-align: center;
   font-size: 1.5vw;
@@ -134,34 +132,32 @@
   line-height: 1rem;
 }
 
-.uType{
+.uType {
   font-size: 1vw;
   color: var(--secondary-text-color);
   font-weight: 400;
 }
 
-.dropdown-menu1 ul li{
+.dropdown-menu1 ul li {
   padding-bottom: 0.1vw 0;
-  
- 
 }
 
-.dropdown-menu1 ul li:hover a{
+.dropdown-menu1 ul li:hover a {
   color: rgb(212, 33, 9);
   cursor: pointer;
 }
 
-.dropdown-menu1 ul li:hover img{
+.dropdown-menu1 ul li:hover img {
   opacity: 1;
   cursor: pointer;
 }
 
-.dropdownItem1{
+.dropdownItem1 {
   display: flex;
   margin: 1vw 0;
 }
 
-.dropdownItem1 img{
+.dropdownItem1 img {
   max-width: 2vw;
   max-height: 2vw;
   margin-right: 1vw;
@@ -169,10 +165,8 @@
   transition: var(--speed);
 }
 
-.dropdownItem1 a{
+.dropdownItem1 a {
   font-size: 1.2vw;
   max-width: 20vw;
   transition: var(--speed);
 }
-
-

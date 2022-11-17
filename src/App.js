@@ -14,19 +14,18 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<Landing/>}></Route>
-          <Route path="/Register" element={<Register/>}></Route>
-          <Route path="/Login" element={<Login/>}></Route>
-          <Route path="/BlogHome" element={<BlogHome/>}></Route>
-          <Route path="/BlogWrite" element={<BlogWrite/>}></Route>
-          <Route path="/Amenities" element={<Amenities/>}></Route>
-          <Route path="/AmenitiesGuest" element={<AmenitiesGuest/>}></Route>
-          <Route path="/TreasurerPanel" element={<TreasurerPanel/>}></Route>
-          <Route path="/MemberPanel" element={<MemberPanel/>}></Route>
+          <Route path="/" element={<Landing />}></Route>
+          <Route path="/Register" element={<Register />}></Route>
+          <Route path="/Login" element={<Login />}></Route>
+          <Route path="/BlogHome" element={<BlogHome />}></Route>
+          <Route path="/BlogWrite" element={<BlogWrite />}></Route>
+          <Route path="/Amenities" element={<Amenities />}></Route>
+          <Route path="/AmenitiesGuest" element={<AmenitiesGuest />}></Route>
+          <Route path="/TreasurerPanel" element={<TreasurerPanel />}></Route>
+          <Route path="/MemberPanel" element={<MemberPanel />}></Route>
         </Routes>
       </Router>
     </div>
-    
   );
 }
 

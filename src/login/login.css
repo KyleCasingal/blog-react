@@ -1,83 +1,80 @@
 .loginPage {
-    height: calc(100vh - 50px);
-    display: flex;
-    margin-top: -6vw;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background: url("../img/landingBG.png") no-repeat center center;
-    font-family: "Poppins", sans-serif;
-    color: white;
-  }
-  
-  .loginTitle {
-    font-size: 3.5vw;
-  }
-  
-  .loginForm {
-    font-size: 1.5vw;
-    padding-top: 1vw;
-    padding-bottom: 3vw;
-    padding-left: 3vw;
-    padding-right: 3vw;
-    border-radius: 0.8vw;
-    background-color: rgba(255, 255, 255, 0.15);
-    margin-top: px;
-    display: flex;
-    flex-direction: column;
-    backdrop-filter: blur(5px);
-  }
-  
-  .loginForm > label {
-    margin: 10px 0;
-    
-  }
-  .loginForm label{
-    font-size: 1.5vw;
-  }
-  
-  .loginInput {
-    padding: 0.5vw;
-    background-color: white;
-    border: none;
-    font-size: 1vw;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-.loginButton{
-    margin-top: 1vw;
-    cursor: pointer;
-    background-color: lightcoral;
-    border: none;
-    color: white;
-    border-radius: 0.5vw;
-    padding: 0.6vw;
-    font-size: 1vw;
-  }
-  
-.loginBtn:disabled{
-    cursor: not-allowed;
-    background-color: rgb(252, 173, 173);
-  }
-  
-
-  input{
-    border-radius: 0.5vw;
-    height: 1vw;
+  height: calc(100vh - 50px);
+  display: flex;
+  margin-top: -6vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: url("../img/landingBG.png") no-repeat center center;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
-.guestButtonLogin{
-    margin-top: 1vw;
-    cursor: pointer;
-    background-color: darkseagreen;
-    border: none;
-    color: white;
-    border-radius: 0.5vw;
-    padding: 0.6vw;
-    font-size: 1vw;
+.loginTitle {
+  font-size: 3.5vw;
 }
-  
+
+.loginForm {
+  font-size: 1.5vw;
+  padding-top: 1vw;
+  padding-bottom: 3vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border-radius: 0.8vw;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin-top: px;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(5px);
+}
+
+.loginForm > label {
+  margin: 10px 0;
+}
+.loginForm label {
+  font-size: 1.5vw;
+}
+
+.loginInput {
+  padding: 0.5vw;
+  background-color: white;
+  border: none;
+  font-size: 1vw;
+  font-family: "Poppins", sans-serif;
+}
+
+.loginButton {
+  margin-top: 1vw;
+  cursor: pointer;
+  background-color: lightcoral;
+  border: none;
+  color: white;
+  border-radius: 0.5vw;
+  padding: 0.6vw;
+  font-size: 1vw;
+}
+
+.loginBtn:disabled {
+  cursor: not-allowed;
+  background-color: rgb(252, 173, 173);
+}
+
+input {
+  border-radius: 0.5vw;
+  height: 1vw;
+}
+
+.guestButtonLogin {
+  margin-top: 1vw;
+  cursor: pointer;
+  background-color: darkseagreen;
+  border: none;
+  color: white;
+  border-radius: 0.5vw;
+  padding: 0.6vw;
+  font-size: 1vw;
+}

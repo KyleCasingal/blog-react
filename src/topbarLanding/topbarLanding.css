@@ -1,9 +1,9 @@
-:root{
+:root {
   --background: ;
   --txt-landing: white;
   --img: ;
 }
-.topLanding{
+.topLanding {
   margin-bottom: 0;
   padding: 0;
   width: 100%;
@@ -16,19 +16,18 @@
   font-family: "Poppins", sans-serif;
   z-index: 999;
   backdrop-filter: blur(5px);
- 
 }
-.topLeftLanding{
+.topLeftLanding {
   flex: 3;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   margin-left: 2vw;
 }
-.topLeftLanding img{
+.topLeftLanding img {
   max-height: 5vw;
 }
-.topIconLanding{
+.topIconLanding {
   font-size: 2.5vw;
   margin-right: 10px;
   color: white;
@@ -37,7 +36,7 @@
   cursor: pointer;
 }
 
-.topLeftLanding{
+.topLeftLanding {
   color: white;
   flex: 1;
   display: flex;
@@ -45,25 +44,19 @@
   justify-content: flex-start;
 }
 
-.topRightLanding{
+.topRightLanding {
   color: white;
   flex: 1;
   display: flex;
   padding-right: 20px;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: flex-end; 
-
+  justify-content: flex-end;
 }
-
-
 
 .topCenter {
   flex: 60;
-  
 }
-
-
 
 .topImg {
   width: 40px;
@@ -73,8 +66,8 @@
   cursor: pointer;
 }
 
-.topListLanding{
-  color:white;
+.topListLanding {
+  color: white;
   display: inline-flex;
   justify-content: flex-end;
   margin: 0;
@@ -83,7 +76,7 @@
   color: rgb(89, 89, 89);
 }
 
-.topListItemLanding{
+.topListItemLanding {
   color: white;
   padding: 0.8vw;
   margin-right: 0.2vw;
@@ -104,7 +97,7 @@
   margin-left: 15px;
 }
 
-.registerButtonLanding{
+.registerButtonLanding {
   font-size: 0.9vw;
   cursor: pointer;
   height: 3em;
@@ -115,7 +108,7 @@
   padding: 0.8em;
   margin-right: 1vw;
 }
-.loginButtonLanding{
+.loginButtonLanding {
   font-size: 0.9vw;
   cursor: pointer;
   height: 3em;
@@ -127,29 +120,26 @@
   margin-right: 1vw;
 }
 
-.registerButtonLanding:hover{
+.registerButtonLanding:hover {
   background-color: rgb(180, 83, 83);
 }
-.loginButtonLanding:hover{
+.loginButtonLanding:hover {
   background-color: rgb(93, 151, 93);
 }
-.Topbar{
+.Topbar {
   --background: rgb(255, 253, 245);
   --img: 0%;
   --txt-landing: darkgray;
 }
-.topLanding{
+.topLanding {
   background-color: var(--background);
 }
-.topIconLanding{
+.topIconLanding {
   color: var(--txt-landing);
 }
-.topListItemLanding{
+.topListItemLanding {
   color: var(--txt-landing);
 }
-.topLeftLanding img{
+.topLeftLanding img {
   width: var(--img);
 }
-
-
-
