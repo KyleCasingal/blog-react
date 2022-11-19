@@ -3,87 +3,89 @@
 }
 
 .blogHome {
+  display: flex;
   width: 100%;
   color: rgb(89, 89, 89);
 }
+.blogScroll{
+  flex: 3;
+  z-index: 1;
+}
 .blogHead {
-  font-size: 30px;
+  font-size: 2vw;
   width: 60%;
+  font-weight: bold;
   margin-left: 5%;
-  margin-top: 20px;
-  padding-right: 10px;
+  margin-top: 2vw;
+  padding-right: 1vw;
   font-family: "Poppins", sans-serif;
 }
 
 .categoriesText {
-  margin-top: 20px;
-  margin-bottom: 50px;
-  padding: 10px;
-  border-radius: 10px;
+  margin-top: 5vw;
+  padding: 1vw;
+  border-radius: 1vw;
   background-color: rgba(234, 232, 199, 0.2);
   font-family: "Poppins", sans-serif;
 }
-
-td {
-  text-align: center;
-  padding: 5px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(210, 210, 210);
-}
 .sideContent {
-  color: black;
-  height: 100%;
-  width: 30%;
-  position: fixed;
-  z-index: 0;
-  top: 0;
-  right: 0;
+  z-index: 1;
+  margin: 0;
+  position: sticky;
+  top: 1vw;
+
+  height: 20vw;
+  width: 100%;
   overflow-x: hidden;
-  margin-top: 20px;
+  margin-top: 2vw;
+}
+.side{
+  flex: 1.5;
 }
 .sideText {
-  font-size: 30px;
-  margin-top: 80px;
-  padding-right: 10px;
+  margin-top: 4vw;
+  padding-right: 1vw;
   font-family: "Poppins", sans-serif;
 }
 
 .blogPost {
-  width: 55%;
+  width: 90%;
   margin-left: 5%;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  padding: 10px;
-  border-radius: 10px;
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+  padding: 1vw;
+  border-radius: 1vw;
   background-color: rgba(234, 232, 199, 0.2);
   font-family: "Poppins", sans-serif;
+}
+.postContent{
+  display: flex;
+  flex-direction: column;
 }
 .blogTitle {
   font-weight: bold;
   font-family: "Poppins", sans-serif;
-  margin-top: 10px;
-  font-size: 20px;
+  margin-top: 1vw;
+  font-size: 2vw;
 }
 .blogBody {
-  text-indent: 50px;
-  margin-top: 10px;
+  text-indent: 5vw;
+  margin-top: 1vw;
   text-align: justify;
 }
 
 .avatarBlog {
-  width: 60px;
-  height: 60px;
+  width: 4vw;
+  height: 4vw;
   border-radius: 50%;
   object-fit: cover;
   cursor: pointer;
-  margin-right: 10px;
 }
 .blogProfile {
   width: 100%;
   display: flex;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
+  margin-bottom: 2vw;
+  padding-bottom: 1vw;
   border-style: solid;
   border-top: 0px;
   border-left: 0px;
@@ -92,53 +94,68 @@ td {
 }
 .profileText {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 .profileName {
-  flex: 11;
-  font-size: 25px;
-  align-items: center;
-  justify-content: flex-start;
+  color: var(--text);
+  margin: 0;
+  text-align: left;
+  font-size: 1.5vw;
 }
 .profileDate {
-  flex: 2;
-  font-size: 15px;
-  align-self: flex-end;
-  justify-content: flex-end;
+  color: var(--text);
+  margin: 0;
+  text-align: right;
+  font-size: 1vw;
 }
 .postImg {
-  width: 100%;
+  align-self: center;
+  justify-self: center;
+  max-width: 55vw;
+  max-height: 60vw;
 }
 .categoryList {
+  font-size: 1.5vw;
   display: inline;
   justify-content: flex-end;
-  margin-top: 5px;
+  margin-top: 0.5vw;
   margin-bottom: 0;
   padding: 0;
   list-style: none;
 }
+.lblCategory{
+  font-size: 2vw;
+  margin: 0;
+}
 .categoryListItem {
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 0.5vw;
+  margin-left: 0.5vw;
   cursor: pointer;
 }
 .categoryListItem:hover {
-  color: rgb(89, 89, 89);
+  color: rgb(0, 0, 0);
   cursor: pointer;
 }
 .profileName:hover {
-  color: rgb(89, 89, 89);
+  color: rgb(0, 0, 0);
   cursor: pointer;
 }
 .darkmodeBtn {
-  height: 1.4vw;
+  top: 21vw;
+  position: sticky;
+  justify-content: flex-end;
   align-items: center;
-  display: inline-flex;
-  margin-top: 2vw;
-  margin-left: 4vw;
+  display: flex;
+  right: 1vw;
+  margin: 0;
+  height: 2vw;
+  margin-right: 1vw;
 }
 .darkBtnTxt {
+  margin-top: 1vw;
   font-size: 1.5vw;
   font-family: "Poppins", sans-serif;
 }
