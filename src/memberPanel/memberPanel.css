@@ -75,3 +75,93 @@ th {
 .fa-pen:hover {
   color: rgb(117, 117, 117);
 }
+
+thead {
+  top: 0;
+  position: sticky;
+  text-align: center;
+  background-color: rgb(251, 250, 244);
+}
+
+th,
+td {
+  padding: 0.8vw;
+  border: 1px solid lightgray;
+}
+
+.table-responsive {
+  font-size: max(1vw, min(10px));
+  max-height: 500px;
+  min-height: 20vw;
+}
+
+.table {
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+  overflow-y: scroll;
+  align-items: center;
+  justify-self: center;
+  margin: 2vw;
+  max-width: 95%;
+}
+.lblTable {
+  font-family: "Poppins", sans-serif;
+  margin-left: 2vw;
+  margin-bottom: -2vw;
+  padding: 0;
+  color: rgb(89, 89, 89);
+  font-weight: 800;
+}
+.lblProfile {
+  font-family: "Poppins", sans-serif;
+  margin-top: 1vw;
+  margin-left: 2vw;
+  margin-bottom: -2vw;
+  padding: 0;
+  color: rgb(89, 89, 89);
+  font-weight: 800;
+}
+.monthlyDuesMem {
+  display: none;
+}
+.profileMem {
+  display: none;
+}
+.messageContainer {
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+}
+tr{
+  color: rgb(89, 89, 89);
+  background-color: rgb(219, 217, 217);
+  border-bottom: 1px solid rgb(192, 192, 192);
+}
+.tblMessage{
+  width: 100%;
+}
+tr:hover{
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+}
+.msgSender {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+.msgDesc {
+  max-width: 30rem;
+  width: fixed;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.msgTime{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2vw;
+}
+

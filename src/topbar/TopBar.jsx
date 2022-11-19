@@ -113,9 +113,6 @@ export default function Topbar() {
             <DropdownItem img={user} text={"My Profile"} />
           </div>
           <div>
-            <DropdownItem img={edit} text={"Edit Profile"} />
-          </div>
-          <div>
             <DropdownItem img={inbox} text={"Inbox"} />
           </div>
           <div>
