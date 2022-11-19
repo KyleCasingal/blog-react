@@ -26,13 +26,13 @@
 .memberPanel {
   flex: 8;
   width: 100%;
-  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .profileImg {
   width: 10vw;
   height: 10vw;
   border-radius: 50%;
-  margin: 1vw;
+  margin: 0;
   border: 0.3vw solid rgb(107, 105, 105);
 }
 
@@ -44,16 +44,16 @@
   margin: 2vw;
   border-radius: 1vw;
 }
-.table {
+.tblProfile {
   color: rgb(89, 89, 89);
-  margin-right: 0;
-  margin-top: -1.2vw;
-  /* border-style: none; */
-  margin-left: 3vw;
+  margin: 0;
+  border: 1px solid black;
+  margin-left: 1vw;
   font-family: "Poppins", sans-serif;
 }
 td,
 th {
+  color: rgb(89, 89, 89);
   font-size: 1.2vw;
   border-style: none !important;
   text-align: left;
@@ -105,6 +105,7 @@ td {
   max-width: 95%;
 }
 .lblTable {
+  font-size: 2vw;
   font-family: "Poppins", sans-serif;
   margin-left: 2vw;
   margin-bottom: -2vw;
@@ -113,6 +114,7 @@ td {
   font-weight: 800;
 }
 .lblProfile {
+  font-size: 2vw;
   font-family: "Poppins", sans-serif;
   margin-top: 1vw;
   margin-left: 2vw;
@@ -121,26 +123,36 @@ td {
   color: rgb(89, 89, 89);
   font-weight: 800;
 }
-.monthlyDuesMem {
-  display: none;
+.inbox {
+  overflow: hidden;
+  margin: 2vw;
+  justify-content: center;
+  align-items: center;
 }
-.profileMem {
-  display: none;
-}
-.messageContainer {
+
+.inboxContainer {
+  padding: 2vw;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 1vw;
+  background-color: rgb(219, 217, 217);
   display: flex;
-  width: 100%;
+  width: 95%;
+  height: 70vh;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
-tr{
+.tblMessage {
+  width: 100%;
+  height: 100%;
+  max-height: 30px;
+}
+.trInbox {
   color: rgb(89, 89, 89);
   background-color: rgb(219, 217, 217);
   border-bottom: 1px solid rgb(192, 192, 192);
 }
-.tblMessage{
-  width: 100%;
-}
-tr:hover{
+.trInbox:hover {
   background-color: rgb(233, 233, 233);
   cursor: pointer;
 }
@@ -150,7 +162,7 @@ tr:hover{
   font-weight: bold;
 }
 .msgDesc {
-  max-width: 30rem;
+  max-width: 50vw;
   width: fixed;
   text-align: left;
   font-family: "Poppins", sans-serif;
@@ -159,9 +171,21 @@ tr:hover{
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.msgTime{
+.msgTime {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 1.2vw;
 }
+.inbox {
+  width: 100%;
+  display: none;
+}
 
+.inboxTitle {
+  font-size: 2vw;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin-bottom: 1vw;
+  color: rgb(89, 89, 89);
+  font-weight: 800;
+}

@@ -3,18 +3,48 @@ import Footer from "../footer/Footer";
 import "./memberPanel.css";
 
 export default function MemberPanel() {
+  function profile() {
+    var profile = document.getElementById("profile");
+    var inbox = document.getElementById("inbox");
+
+    profile.style.display = "block";
+    inbox.style.display = "none";
+  }
+
+  function inbox() {
+    var profile = document.getElementById("profile");
+    var inbox = document.getElementById("inbox");
+
+    profile.style.display = "none";
+    inbox.style.display = "block";
+  }
+
   return (
     <>
       <Topbar />
       <div className="treasurer">
         <div className="sideBar">
           <ul className="memberSideBar">
-            <li id="profile">Profile</li>
-            <li id="inbox">Inbox</li>
+            <li
+              id="profileBtn"
+              onClick={() => {
+                profile();
+              }}
+            >
+              Profile
+            </li>
+            <li
+              id="inboxBtn"
+              onClick={() => {
+                inbox();
+              }}
+            >
+              Inbox
+            </li>
           </ul>
         </div>
         <div className="memberPanel">
-          <div className="profileMem">
+          <div className="profileMem" id="profile">
             <label className="lblProfile">Member Profile</label>
             <div className="profileForm">
               <img
@@ -22,18 +52,14 @@ export default function MemberPanel() {
                 src="https://i.pinimg.com/736x/6a/6c/ca/6a6cca8ac5994554019c257af2b17b6a.jpg"
                 alt=""
               />
-              <table className="table">
+              <table className="table tblProfile">
                 <tbody>
-                  <tr>
-                    <td></td>
-                    <td></td>
-                    <td className="editBtn">
-                      <i className="fa-solid fa-pen fa-2x"></i>
-                    </td>
-                  </tr>
                   <tr>
                     <td className="lbl">Name:</td>
                     <td className="data">Nene Yashiro</td>
+                    <td className="editBtn">
+                      <i className="fa-solid fa-pen fa-2x"></i>
+                    </td>
                   </tr>
                   <tr>
                     <td className="lbl">Date of Birth:</td>
@@ -70,8 +96,6 @@ export default function MemberPanel() {
                 </tbody>
               </table>
             </div>
-          </div>
-          <div className="monthlyDuesMem">
             <div class="table-responsive">
               <label className="lblTable">Paid Monthly Dues</label>
               <table
@@ -117,38 +141,104 @@ export default function MemberPanel() {
               </table>
             </div>
           </div>
-          <div className="messageContainer">
-            <table className="tblMessage">
-              <tr>
-                <td className="msgSender">Jane Doe</td>
-                <td className="msgDesc">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit sdasdasdasdsadas"</td>
-                <td className="msgTime">9:00 pm</td>
-              </tr>
-              <tr>
-                <td className="msgSender">Jane Doe</td>
-                <td className="msgDesc">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit sdasdasdasdsadas"</td>
-                <td className="msgTime">9:00 pm</td>
-              </tr>
-              <tr>
-                <td className="msgSender">Jane Doe</td>
-                <td className="msgDesc">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit sdasdasdasdsadas"</td>
-                <td className="msgTime">9:00 pm</td>
-              </tr>
-              <tr>
-                <td className="msgSender">Jane Doe</td>
-                <td className="msgDesc">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit sdasdasdasdsadas"</td>
-                <td className="msgTime">9:00 pm</td>
-              </tr>
-              <tr>
-                <td className="msgSender">Jane Doe</td>
-                <td className="msgDesc">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit sdasdasdasdsadas"</td>
-                <td className="msgTime">9:00 pm</td>
-              </tr>
-            </table>
+
+          <div className="inbox" id="inbox">
+            <label className="inboxTitle">Messages</label>
+            <div className="inboxContainer">
+              <table className="tblMessage">
+                <tr className="trInbox">
+                  <td className="msgSender">Jane Doe</td>
+                  <td className="msgDesc">
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit sdasdasdasdsadas"
+                  </td>
+                  <td className="msgTime">9:00 pm</td>
+                </tr>
+                <tr className="trInbox">
+                  <td className="msgSender">Jane Doe</td>
+                  <td className="msgDesc">
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit sdasdasdasdsadas"
+                  </td>
+                  <td className="msgTime">9:00 pm</td>
+                </tr>
+                <tr className="trInbox">
+                  <td className="msgSender">Jane Doe</td>
+                  <td className="msgDesc">
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit sdasdasdasdsadas"
+                  </td>
+                  <td className="msgTime">9:00 pm</td>
+                </tr>
+                <tr className="trInbox">
+                  <td className="msgSender">Jane Doe</td>
+                  <td className="msgDesc">
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit sdasdasdasdsadas"
+                  </td>
+                  <td className="msgTime">9:00 pm</td>
+                </tr>
+                <tr className="trInbox">
+                  <td className="msgSender">Jane Doe</td>
+                  <td className="msgDesc">
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit sdasdasdasdsadas"
+                  </td>
+                  <td className="msgTime">9:00 pm</td>
+                </tr>
+                <tr className="trInbox">
+                  <td className="msgSender">Jane Doe</td>
+                  <td className="msgDesc">
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit sdasdasdasdsadas"
+                  </td>
+                  <td className="msgTime">9:00 pm</td>
+                </tr>
+                <tr className="trInbox">
+                  <td className="msgSender">Jane Doe</td>
+                  <td className="msgDesc">
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit sdasdasdasdsadas"
+                  </td>
+                  <td className="msgTime">9:00 pm</td>
+                </tr>
+                <tr className="trInbox">
+                  <td className="msgSender">Jane Doe</td>
+                  <td className="msgDesc">
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit sdasdasdasdsadas"
+                  </td>
+                  <td className="msgTime">9:00 pm</td>
+                </tr>
+                <tr className="trInbox">
+                  <td className="msgSender">Jane Doe</td>
+                  <td className="msgDesc">
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit sdasdasdasdsadas"
+                  </td>
+                  <td className="msgTime">9:00 pm</td>
+                </tr>
+                <tr className="trInbox">
+                  <td className="msgSender">Jane Doe</td>
+                  <td className="msgDesc">
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit sdasdasdasdsadas"
+                  </td>
+                  <td className="msgTime">9:00 pm</td>
+                </tr>
+                <tr className="trInbox">
+                  <td className="msgSender">Jane Doe</td>
+                  <td className="msgDesc">
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit sdasdasdasdsadas"
+                  </td>
+                  <td className="msgTime">9:00 pm</td>
+                </tr>
+              </table>
+            </div>
           </div>
         </div>
       </div>
-
       <Footer />
     </>
   );

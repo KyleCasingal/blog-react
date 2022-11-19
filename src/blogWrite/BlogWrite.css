@@ -5,7 +5,7 @@ input {
   font-size: 1.2vw;
   border: 0;
   border-radius: 0.8vw;
-  font-family: "Newsreader", serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 1vw;
 }
 input[type="file"] {
@@ -26,7 +26,7 @@ textarea {
   height: 4vw;
   overflow-x: auto;
   resize: vertical;
-  font-family: "Newsreader", serif;
+  font-family: "Poppins", sans-serif;
 }
 .upload {
   text-align: center;
@@ -35,7 +35,7 @@ textarea {
   padding: 0.5vw;
   max-width: 50vw;
   width: 15vw;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-sans-serif;
   font-size: 1.5vw;
   color: white;
   border-radius: 0.8vw;
@@ -54,7 +54,7 @@ textarea {
   border-radius: 1vw;
   flex-direction: column;
   background-color: rgba(234, 232, 199, 0.2);
-  font-family: "Newsreader", serif;
+  font-family: "Poppins", sans-serif;
 }
 .writeBlogPage {
   margin-left: 3vw;
@@ -70,7 +70,7 @@ textarea {
   padding: 0.5vw;
   max-width: 50vw;
   width: 15vw;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-sans-serif;
   font-size: 1.5vw;
   margin-top: 2vw;
   color: white;
