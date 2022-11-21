@@ -69,8 +69,9 @@
   font-size: 2vw;
 }
 .blogBody {
+  font-size: clamp(1vw, 10px, 5px);
   text-indent: 5vw;
-  margin-top: 1vw;
+  margin-top: 0;
   text-align: justify;
 }
 

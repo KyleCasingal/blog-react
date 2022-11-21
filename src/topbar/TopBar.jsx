@@ -116,7 +116,7 @@ export default function Topbar() {
             <DropdownItem img={inbox} text={"Inbox"} />
           </div>
           <div>
-            <DropdownItem img={help} text={"Submit a Concern"} />
+            <DropdownItem img={help} text={"Raise a Concern"} />
           </div>
           <div
             onClick={() => {

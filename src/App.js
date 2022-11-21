@@ -8,6 +8,7 @@ import Amenities from "./amenities/amenities";
 import AmenitiesGuest from "./amenitiesGuest/amenitiesGuest";
 import TreasurerPanel from "./treasurerPanel/treasurerPanel";
 import MemberPanel from "./memberPanel/memberPanel";
+import SecretaryPanel from "./secretaryPanel/secretaryPanel";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/AmenitiesGuest" element={<AmenitiesGuest />}></Route>
           <Route path="/TreasurerPanel" element={<TreasurerPanel />}></Route>
           <Route path="/MemberPanel" element={<MemberPanel />}></Route>
+          <Route path="/SecretaryPanel" element={<SecretaryPanel />}></Route>
         </Routes>
       </Router>
     </div>
