@@ -11,7 +11,6 @@ export default function BlogHome() {
     <>
       <Topbar />
       <div className="blogHome">
-
         <div className="blogScroll">
           <div className="blogHead">
             <p>Recent Posts</p>
@@ -36,13 +35,13 @@ export default function BlogHome() {
               ></img>
               <p className="blogTitle">Lorem Ipsum</p>
               <p className="blogBody">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-                eu consectetur eros. Morbi non ex sed tellus tincidunt iaculis vitae
-                id augue. Fusce laoreet ultrices libero id tristique. Nullam
-                scelerisque maximus rutrum. Nam eu augue non leo sollicitudin
-                vehicula ac at neque. Integer tempor gravida ex, vitae consectetur
-                nisi fermentum ultrices. Donec luctus elementum neque, sit amet
-                pellentesque elit eleifend a.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur eu consectetur eros. Morbi non ex sed tellus tincidunt
+                iaculis vitae id augue. Fusce laoreet ultrices libero id
+                tristique. Nullam scelerisque maximus rutrum. Nam eu augue non
+                leo sollicitudin vehicula ac at neque. Integer tempor gravida
+                ex, vitae consectetur nisi fermentum ultrices. Donec luctus
+                elementum neque, sit amet pellentesque elit eleifend a.
               </p>
             </div>
           </div>
@@ -67,13 +66,13 @@ export default function BlogHome() {
               ></img>
               <p className="blogTitle">Lorem Ipsum</p>
               <p className="blogBody">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-                eu consectetur eros. Morbi non ex sed tellus tincidunt iaculis vitae
-                id augue. Fusce laoreet ultrices libero id tristique. Nullam
-                scelerisque maximus rutrum. Nam eu augue non leo sollicitudin
-                vehicula ac at neque. Integer tempor gravida ex, vitae consectetur
-                nisi fermentum ultrices. Donec luctus elementum neque, sit amet
-                pellentesque elit eleifend a.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur eu consectetur eros. Morbi non ex sed tellus tincidunt
+                iaculis vitae id augue. Fusce laoreet ultrices libero id
+                tristique. Nullam scelerisque maximus rutrum. Nam eu augue non
+                leo sollicitudin vehicula ac at neque. Integer tempor gravida
+                ex, vitae consectetur nisi fermentum ultrices. Donec luctus
+                elementum neque, sit amet pellentesque elit eleifend a.
               </p>
             </div>
           </div>
@@ -98,13 +97,13 @@ export default function BlogHome() {
               ></img>
               <p className="blogTitle">Lorem Ipsum</p>
               <p className="blogBody">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-                eu consectetur eros. Morbi non ex sed tellus tincidunt iaculis vitae
-                id augue. Fusce laoreet ultrices libero id tristique. Nullam
-                scelerisque maximus rutrum. Nam eu augue non leo sollicitudin
-                vehicula ac at neque. Integer tempor gravida ex, vitae consectetur
-                nisi fermentum ultrices. Donec luctus elementum neque, sit amet
-                pellentesque elit eleifend a.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur eu consectetur eros. Morbi non ex sed tellus tincidunt
+                iaculis vitae id augue. Fusce laoreet ultrices libero id
+                tristique. Nullam scelerisque maximus rutrum. Nam eu augue non
+                leo sollicitudin vehicula ac at neque. Integer tempor gravida
+                ex, vitae consectetur nisi fermentum ultrices. Donec luctus
+                elementum neque, sit amet pellentesque elit eleifend a.
               </p>
             </div>
           </div>
@@ -121,7 +120,6 @@ export default function BlogHome() {
                 </ul>
               </div>
             </div>
-
           </div>
           <label className="darkmodeBtn">
             <label className="darkBtnTxt">Dark Mode</label>
@@ -133,12 +131,9 @@ export default function BlogHome() {
               }}
             />
             <span className="check"></span>
-
           </label>
-
         </div>
       </div>
-
 
       <Footer />
     </>

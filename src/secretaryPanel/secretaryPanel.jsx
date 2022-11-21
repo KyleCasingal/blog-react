@@ -17,17 +17,12 @@ export default function SecretaryPanel() {
           </ul>
         </div>
         <div className="secretaryPanel">
-            <div className="homeownerRegistration">
-              <label className="lblRegistration">Registration</label>
-              
-                <HomeownerRegistration />
-              
-                
-            </div>
-            
-            
+          <div className="homeownerRegistration">
+            <label className="lblRegistration">Registration</label>
+
+            <HomeownerRegistration />
+          </div>
         </div>
-        
       </div>
       <Footer />
     </>

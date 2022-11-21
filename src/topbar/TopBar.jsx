@@ -100,7 +100,7 @@ export default function Topbar() {
 
       <div className={`dropdown-menu1 ${open ? "active" : "inactive"}`}>
         <h3 className="uName">
-        Elizabeth Mckinney
+          Elizabeth Mckinney
           <br />
           <span className="uType">Member</span>
         </h3>

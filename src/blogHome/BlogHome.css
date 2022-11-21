@@ -7,7 +7,7 @@
   width: 100%;
   color: rgb(89, 89, 89);
 }
-.blogScroll{
+.blogScroll {
   flex: 3;
   z-index: 1;
 }
@@ -39,7 +39,7 @@
   overflow-x: hidden;
   margin-top: 2vw;
 }
-.side{
+.side {
   flex: 1.5;
 }
 .sideText {
@@ -58,7 +58,7 @@
   background-color: rgba(234, 232, 199, 0.2);
   font-family: "Poppins", sans-serif;
 }
-.postContent{
+.postContent {
   display: flex;
   flex-direction: column;
 }
@@ -127,7 +127,7 @@
   padding: 0;
   list-style: none;
 }
-.lblCategory{
+.lblCategory {
   font-size: 2vw;
   margin: 0;
 }

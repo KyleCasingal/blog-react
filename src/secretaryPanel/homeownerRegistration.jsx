@@ -104,96 +104,96 @@ export default function HomeownerRegistration() {
       </div>
       <label className="lblRegistration">Registered Home</label>
       <div className="tblContainer">
-      <table className="tblHomeowners table-hover">
-        <thead>
-          <th>Full Name</th>
-          <th>Date of Birth</th>
-          <th>Gender</th>
-          <th>Email</th>
-          <th>Residence Address</th>
-          <th>Business Address</th>
-          <th>Mobile Number</th>
-          <th>Occupation</th>
-          <th>Employer</th>
-        </thead>
-        <tr>
-          <td>Elizabeth B. Mckinney</td>
-          <td>Jan 1, 2001</td>
-          <td>Female</td>
-          <td>sample@gmail.com</td>
-          <td>lot1 block2, Sunnyvale 1, Palangoy</td>
-          <td>NA</td>
-          <td>09123456789</td>
-          <td>NA</td>
-          <td>NA</td>
-        </tr>
-        <tr>
-          <td>Elizabeth B. Mckinney</td>
-          <td>Jan 1, 2001</td>
-          <td>Female</td>
-          <td>sample@gmail.com</td>
-          <td>lot1 block2, Sunnyvale 1, Palangoy</td>
-          <td>NA</td>
-          <td>09123456789</td>
-          <td>NA</td>
-          <td>NA</td>
-        </tr>
-        <tr>
-          <td>Elizabeth B. Mckinney</td>
-          <td>Jan 1, 2001</td>
-          <td>Female</td>
-          <td>sample@gmail.com</td>
-          <td>lot1 block2, Sunnyvale 1, Palangoy</td>
-          <td>NA</td>
-          <td>09123456789</td>
-          <td>NA</td>
-          <td>NA</td>
-        </tr>
-        <tr>
-          <td>Elizabeth B. Mckinney</td>
-          <td>Jan 1, 2001</td>
-          <td>Female</td>
-          <td>sample@gmail.com</td>
-          <td>lot1 block2, Sunnyvale 1, Palangoy</td>
-          <td>NA</td>
-          <td>09123456789</td>
-          <td>NA</td>
-          <td>NA</td>
-        </tr>
-        <tr>
-          <td>Elizabeth B. Mckinney</td>
-          <td>Jan 1, 2001</td>
-          <td>Female</td>
-          <td>sample@gmail.com</td>
-          <td>lot1 block2, Sunnyvale 1, Palangoy</td>
-          <td>NA</td>
-          <td>09123456789</td>
-          <td>NA</td>
-          <td>NA</td>
-        </tr>
-        <tr>
-          <td>Elizabeth B. Mckinney</td>
-          <td>Jan 1, 2001</td>
-          <td>Female</td>
-          <td>sample@gmail.com</td>
-          <td>lot1 block2, Sunnyvale 1, Palangoy</td>
-          <td>NA</td>
-          <td>09123456789</td>
-          <td>NA</td>
-          <td>NA</td>
-        </tr>
-        <tr>
-          <td>Elizabeth B. Mckinney</td>
-          <td>Jan 1, 2001</td>
-          <td>Female</td>
-          <td>sample@gmail.com</td>
-          <td>lot1 block2, Sunnyvale 1, Palangoy</td>
-          <td>NA</td>
-          <td>09123456789</td>
-          <td>NA</td>
-          <td>NA</td>
-        </tr>
-      </table>
+        <table className="tblHomeowners table-hover">
+          <thead>
+            <th>Full Name</th>
+            <th>Date of Birth</th>
+            <th>Gender</th>
+            <th>Email</th>
+            <th>Residence Address</th>
+            <th>Business Address</th>
+            <th>Mobile Number</th>
+            <th>Occupation</th>
+            <th>Employer</th>
+          </thead>
+          <tr>
+            <td>Elizabeth B. Mckinney</td>
+            <td>Jan 1, 2001</td>
+            <td>Female</td>
+            <td>sample@gmail.com</td>
+            <td>lot1 block2, Sunnyvale 1, Palangoy</td>
+            <td>NA</td>
+            <td>09123456789</td>
+            <td>NA</td>
+            <td>NA</td>
+          </tr>
+          <tr>
+            <td>Elizabeth B. Mckinney</td>
+            <td>Jan 1, 2001</td>
+            <td>Female</td>
+            <td>sample@gmail.com</td>
+            <td>lot1 block2, Sunnyvale 1, Palangoy</td>
+            <td>NA</td>
+            <td>09123456789</td>
+            <td>NA</td>
+            <td>NA</td>
+          </tr>
+          <tr>
+            <td>Elizabeth B. Mckinney</td>
+            <td>Jan 1, 2001</td>
+            <td>Female</td>
+            <td>sample@gmail.com</td>
+            <td>lot1 block2, Sunnyvale 1, Palangoy</td>
+            <td>NA</td>
+            <td>09123456789</td>
+            <td>NA</td>
+            <td>NA</td>
+          </tr>
+          <tr>
+            <td>Elizabeth B. Mckinney</td>
+            <td>Jan 1, 2001</td>
+            <td>Female</td>
+            <td>sample@gmail.com</td>
+            <td>lot1 block2, Sunnyvale 1, Palangoy</td>
+            <td>NA</td>
+            <td>09123456789</td>
+            <td>NA</td>
+            <td>NA</td>
+          </tr>
+          <tr>
+            <td>Elizabeth B. Mckinney</td>
+            <td>Jan 1, 2001</td>
+            <td>Female</td>
+            <td>sample@gmail.com</td>
+            <td>lot1 block2, Sunnyvale 1, Palangoy</td>
+            <td>NA</td>
+            <td>09123456789</td>
+            <td>NA</td>
+            <td>NA</td>
+          </tr>
+          <tr>
+            <td>Elizabeth B. Mckinney</td>
+            <td>Jan 1, 2001</td>
+            <td>Female</td>
+            <td>sample@gmail.com</td>
+            <td>lot1 block2, Sunnyvale 1, Palangoy</td>
+            <td>NA</td>
+            <td>09123456789</td>
+            <td>NA</td>
+            <td>NA</td>
+          </tr>
+          <tr>
+            <td>Elizabeth B. Mckinney</td>
+            <td>Jan 1, 2001</td>
+            <td>Female</td>
+            <td>sample@gmail.com</td>
+            <td>lot1 block2, Sunnyvale 1, Palangoy</td>
+            <td>NA</td>
+            <td>09123456789</td>
+            <td>NA</td>
+            <td>NA</td>
+          </tr>
+        </table>
       </div>
     </>
   );
