@@ -1,5 +1,4 @@
-import Topbar from "../topbar/TopBar";
-import Footer from "../footer/Footer";
+
 import "./secretaryPanel.css";
 
 export default function HomeownerRegistration() {
