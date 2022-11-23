@@ -5,7 +5,7 @@ export default function HomeownerRegistration() {
   return (
     <>
       <div className="regForm">
-        <table>
+        <table className="tblRegForm">
           <tr>
             <td>First Name:</td>
             <td>
@@ -101,7 +101,7 @@ export default function HomeownerRegistration() {
           </tr>
         </table>
       </div>
-      <label className="lblRegistration">Registered Home</label>
+      <label className="lblRegistration">Registered Homeowners</label>
       <div className="tblContainer">
         <table className="tblHomeowners table-hover">
           <thead>

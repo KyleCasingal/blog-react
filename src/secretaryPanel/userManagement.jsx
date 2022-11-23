@@ -6,7 +6,7 @@ export default function MemberManagement() {
     return (
         <>
             <div className="tblContainer">
-                <table className="tblUser">
+                <table className="table tblUser">
                     <thead>
                         <th>User ID</th>
                         <th>Fullname</th>

@@ -50,12 +50,13 @@
   margin-left: 1vw;
   font-family: "Poppins", sans-serif;
 }
-td,
-th {
+
+.tblPRofile  th,
+.tblProfile td {
   color: rgb(89, 89, 89);
   font-size: 1.2vw;
   border-style: none !important;
-  text-align: left;
+  text-align: left !important;
   width: min-content;
 }
 .lbl {
@@ -80,12 +81,15 @@ thead {
   position: sticky;
   text-align: center;
   background-color: rgb(251, 250, 244);
+  border: none !important;
 }
 
-th,
-td {
+.tblPaidMonthly th,
+.tblPaidMonthly td {
+  color: rgb(89, 89, 89);
   padding: 0.8vw;
-  border: 1px solid lightgray;
+  border: none !important;
+  text-align: center !important;
 }
 
 .table-responsive {
@@ -94,7 +98,7 @@ td {
   min-height: 20vw;
 }
 
-.table {
+.tblPaidMonthly {
   margin-top: 1vw;
   margin-bottom: 2vw;
   overflow-y: scroll;
@@ -142,9 +146,14 @@ td {
   overflow-y: scroll;
 }
 .tblMessage {
+  margin-left: 0;
+  margin-right: 0;
   width: 100%;
   height: 100%;
   max-height: 30px;
+}
+.tblMessage td{
+  border: none !important;
 }
 .trInbox {
   color: rgb(89, 89, 89);
