@@ -55,7 +55,7 @@ export default function Amenities() {
           <input type="text" readOnly />
 
           <button className="btnSubmitPost" name="submitPost" id="submitPost">
-            Submit Reservation
+            Add Reservation
           </button>
         </div>
         <div className="paymentForm">
@@ -81,6 +81,103 @@ export default function Amenities() {
           </label>
         </div>
       </div>
+
+      <label className="lblRegistration">Cart</label>
+      <table className="table tblAmenityCart">
+        <thead>
+          <th>
+            <input type="checkbox" name="" id="" />
+          </th>
+          <th>Name</th>
+          <th>Time</th>
+          <th>Date</th>
+          <th>Amenity</th>
+          <th>Amount</th>
+          <th>Payment Status</th>
+        </thead>
+        <tr>
+          <td>
+            <input className="tblCheck" type="checkbox" name="" id="" />
+          </td>
+          <td>Jane Doe</td>
+          <td>6:00 pm to 8:00 pm</td>
+          <td>11/22/2022</td>
+          <td>Basketball Court</td>
+          <td>300</td>
+          <td>Fully Paid</td>
+        </tr>
+        <tr>
+          <td>
+            <input className="tblCheck" type="checkbox" name="" id="" />
+          </td>
+          <td>Jane Doe</td>
+          <td>7:00 pm to 9:00 pm</td>
+          <td>11/23/2022</td>
+          <td>Basketball Court</td>
+          <td>300</td>
+          <td>Fully Paid</td>
+        </tr>
+        <tr>
+          <td>
+            <input className="tblCheck" type="checkbox" name="" id="" />
+          </td>
+          <td>Jane Doe</td>
+          <td>7:00 pm to 8:00 pm</td>
+          <td>11/24/2022</td>
+          <td>Basketball Court</td>
+          <td>300</td>
+          <td>Fully Paid</td>
+        </tr>
+      </table>
+      <div className="btnArea">
+        <button type="submit" className="btnSubmitReg">
+          Checkout
+        </button>
+
+        <button type="submit" className="btnClearReg">
+          Remove from cart
+        </button>
+      </div>
+
+      <label className="lblRegistration">Scheduled Amenities</label>
+      <table className="table tblAmenityCart">
+        <thead>
+         
+          <th>Name</th>
+          <th>Time</th>
+          <th>Date</th>
+          <th>Amenity</th>
+          <th>Amount</th>
+          <th>Payment Status</th>
+        </thead>
+        <tr>
+         
+          <td>Jane Doe</td>
+          <td>6:00 pm to 8:00 pm</td>
+          <td>11/22/2022</td>
+          <td>Basketball Court</td>
+          <td>300</td>
+          <td>Fully Paid</td>
+        </tr>
+        <tr>
+          
+          <td>Jane Doe</td>
+          <td>7:00 pm to 9:00 pm</td>
+          <td>11/23/2022</td>
+          <td>Basketball Court</td>
+          <td>300</td>
+          <td>Fully Paid</td>
+        </tr>
+        <tr>
+          
+          <td>Jane Doe</td>
+          <td>7:00 pm to 8:00 pm</td>
+          <td>11/24/2022</td>
+          <td>Basketball Court</td>
+          <td>300</td>
+          <td>Fully Paid</td>
+        </tr>
+      </table>
       <Footer />
     </>
   );

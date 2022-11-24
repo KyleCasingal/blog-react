@@ -41,6 +41,7 @@ td {
 }
 
 .table-responsive {
+  overflow-x: hidden;
   font-size: max(1vw, min(10px));
   max-height: 500px;
   min-height: 20vw;
@@ -114,4 +115,15 @@ td {
 }
 .treasurerSideBar li:hover {
   background-color: rgb(236, 235, 226);
+}
+.tblDues th,
+.tblDues td{
+  border: none !important;
+  text-align: center;
+}
+.tblDues input[type="checkbox"]{
+  appearance: auto;
+  -webkit-appearance: auto;
+  visibility: visible;
+  display: block;
 }

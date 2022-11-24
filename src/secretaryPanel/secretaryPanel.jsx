@@ -5,6 +5,7 @@ import HomeownerRegistration from "./homeownerRegistration";
 import MemberManagement from "./userManagement";
 import ComplaintManagement from "./complaintManagement";
 import Settings from "./settings";
+import Reports from "./reports";
 
 export default function SecretaryPanel() {
   function homeownerReg() {
@@ -12,11 +13,13 @@ export default function SecretaryPanel() {
     var userManage = document.getElementById("userManagement");
     var complaintManage = document.getElementById("complaintManagement");
     var settings = document.getElementById("settings");
+    var reports = document.getElementById("reports");
 
     homeownerReg.style.display = "block";
     userManage.style.display = "none";
     complaintManage.style.display = "none";
     settings.style.display = "none";
+    reports.style.display = "none";
   }
 
   function accManagement() {
@@ -24,11 +27,13 @@ export default function SecretaryPanel() {
     var userManage = document.getElementById("userManagement");
     var complaintManage = document.getElementById("complaintManagement");
     var settings = document.getElementById("settings");
+    var reports = document.getElementById("reports");
 
     homeownerReg.style.display = "none";
     userManage.style.display = "block";
     complaintManage.style.display = "none";
     settings.style.display = "none";
+    reports.style.display = "none";
   }
 
   function complaintManagement() {
@@ -36,11 +41,13 @@ export default function SecretaryPanel() {
     var userManage = document.getElementById("userManagement");
     var complaintManage = document.getElementById("complaintManagement");
     var settings = document.getElementById("settings");
+    var reports = document.getElementById("reports");
 
     homeownerReg.style.display = "none";
     userManage.style.display = "none";
     complaintManage.style.display = "block";
     settings.style.display = "none";
+    reports.style.display = "none";
   }
 
   function settings() {
@@ -48,11 +55,26 @@ export default function SecretaryPanel() {
     var userManage = document.getElementById("userManagement");
     var complaintManage = document.getElementById("complaintManagement");
     var settings = document.getElementById("settings");
+    var reports = document.getElementById("reports");
 
     homeownerReg.style.display = "none";
     userManage.style.display = "none";
     complaintManage.style.display = "none";
     settings.style.display = "block";
+    reports.style.display = "none";
+  }
+  function reports() {
+    var homeownerReg = document.getElementById("homeownerRegistration");
+    var userManage = document.getElementById("userManagement");
+    var complaintManage = document.getElementById("complaintManagement");
+    var settings = document.getElementById("settings");
+    var reports = document.getElementById("reports");
+
+    homeownerReg.style.display = "none";
+    userManage.style.display = "none";
+    complaintManage.style.display = "none";
+    settings.style.display = "none";
+    reports.style.display = "block";
   }
 
   return (
@@ -89,24 +111,32 @@ export default function SecretaryPanel() {
             >
               Settings
             </li>
-              <li>Reports</li>
+              <li onClick={()=>{reports()}}>Reports</li>
           </ul>
         </div>
         <div className="secretaryPanel">
+          
           <div className="homeownerRegistration" id="homeownerRegistration">
             <label className="lblRegistration">Registration</label>
             <HomeownerRegistration />
           </div>
+          
           <div className="userManagement" id="userManagement">
             <label className="lblRegistration">Account Management</label>
             <MemberManagement />
           </div>
+          
           <div className="complaintManagement" id="complaintManagement">
             <ComplaintManagement />
           </div>
+          
           <div className="settings" id="settings">
             
             <Settings />
+          </div>
+
+          <div className="reports" id="reports">
+              <Reports />
           </div>
         </div>
       </div>
