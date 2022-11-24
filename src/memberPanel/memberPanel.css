@@ -4,6 +4,8 @@
   color: black;
 }
 .memberSideBar {
+  top: 4.5vw;
+  position: sticky;
   display: inline;
   justify-content: flex-end;
   margin-top: 5px;

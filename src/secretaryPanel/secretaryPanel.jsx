@@ -4,6 +4,7 @@ import "./secretaryPanel.css";
 import HomeownerRegistration from "./homeownerRegistration";
 import MemberManagement from "./userManagement";
 import ComplaintManagement from "./complaintManagement";
+import Settings from "./settings";
 
 export default function SecretaryPanel() {
   function homeownerReg() {
@@ -88,6 +89,7 @@ export default function SecretaryPanel() {
             >
               Settings
             </li>
+              <li>Reports</li>
           </ul>
         </div>
         <div className="secretaryPanel">
@@ -102,7 +104,10 @@ export default function SecretaryPanel() {
           <div className="complaintManagement" id="complaintManagement">
             <ComplaintManagement />
           </div>
-          <div className="settings" id="settings"></div>
+          <div className="settings" id="settings">
+            
+            <Settings />
+          </div>
         </div>
       </div>
       <Footer />
