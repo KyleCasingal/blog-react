@@ -184,8 +184,9 @@ input[type="checkbox"] {
   transition: ease-in 0.5s;
 }
 input[type="checkbox"]:checked ~ .check {
+  z-index: -999;
   background: #fff;
-  box-shadow: 0 0 0 99999vw #141d26;
+  box-shadow: 0 0 0 99999vw #141d26 ;
 }
 
 .check:before {
@@ -203,6 +204,7 @@ input[type="checkbox"]:checked ~ .check:before {
   transform: translateX(-5vw);
 }
 .check:after {
+  z-index: -999;
   content: "";
   position: absolute;
   top: 0.2vw;
@@ -231,4 +233,11 @@ input[type="checkbox"]:checked ~ .check:after {
 }
 .sideText {
   color: var(--text);
+}
+.footerDiv{
+  position: relative;
+  bottom: 0;
+}
+.listTest{
+  list-style: none;
 }

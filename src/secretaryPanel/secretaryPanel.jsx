@@ -6,6 +6,7 @@ import MemberManagement from "./userManagement";
 import ComplaintManagement from "./complaintManagement";
 import Settings from "./settings";
 import Reports from "./reports";
+import PostManagement from "./postManagement";
 
 export default function SecretaryPanel() {
   function homeownerReg() {
@@ -14,12 +15,14 @@ export default function SecretaryPanel() {
     var complaintManage = document.getElementById("complaintManagement");
     var settings = document.getElementById("settings");
     var reports = document.getElementById("reports");
+    var postManage = document.getElementById("postManagement");
 
     homeownerReg.style.display = "block";
     userManage.style.display = "none";
     complaintManage.style.display = "none";
     settings.style.display = "none";
     reports.style.display = "none";
+    postManage.style.display = "none";
   }
 
   function accManagement() {
@@ -28,12 +31,14 @@ export default function SecretaryPanel() {
     var complaintManage = document.getElementById("complaintManagement");
     var settings = document.getElementById("settings");
     var reports = document.getElementById("reports");
+    var postManage = document.getElementById("postManagement");
 
     homeownerReg.style.display = "none";
     userManage.style.display = "block";
     complaintManage.style.display = "none";
     settings.style.display = "none";
     reports.style.display = "none";
+    postManage.style.display = "none";
   }
 
   function complaintManagement() {
@@ -42,12 +47,14 @@ export default function SecretaryPanel() {
     var complaintManage = document.getElementById("complaintManagement");
     var settings = document.getElementById("settings");
     var reports = document.getElementById("reports");
+    var postManage = document.getElementById("postManagement");
 
     homeownerReg.style.display = "none";
     userManage.style.display = "none";
     complaintManage.style.display = "block";
     settings.style.display = "none";
     reports.style.display = "none";
+    postManage.style.display = "none";
   }
 
   function settings() {
@@ -56,12 +63,14 @@ export default function SecretaryPanel() {
     var complaintManage = document.getElementById("complaintManagement");
     var settings = document.getElementById("settings");
     var reports = document.getElementById("reports");
+    var postManage = document.getElementById("postManagement");
 
     homeownerReg.style.display = "none";
     userManage.style.display = "none";
     complaintManage.style.display = "none";
     settings.style.display = "block";
     reports.style.display = "none";
+    postManage.style.display = "none";
   }
   function reports() {
     var homeownerReg = document.getElementById("homeownerRegistration");
@@ -69,13 +78,32 @@ export default function SecretaryPanel() {
     var complaintManage = document.getElementById("complaintManagement");
     var settings = document.getElementById("settings");
     var reports = document.getElementById("reports");
+    var postManage = document.getElementById("postManagement");
 
     homeownerReg.style.display = "none";
     userManage.style.display = "none";
     complaintManage.style.display = "none";
     settings.style.display = "none";
     reports.style.display = "block";
+    postManage.style.display = "none";
+
   }
+  function postManagement() {
+    var homeownerReg = document.getElementById("homeownerRegistration");
+    var userManage = document.getElementById("userManagement");
+    var complaintManage = document.getElementById("complaintManagement");
+    var settings = document.getElementById("settings");
+    var reports = document.getElementById("reports");
+    var postManage = document.getElementById("postManagement");
+
+    homeownerReg.style.display = "none";
+    userManage.style.display = "none";
+    complaintManage.style.display = "none";
+    settings.style.display = "none";
+    reports.style.display = "none";
+    postManage.style.display = "block";
+  }
+
 
   return (
     <>
@@ -104,6 +132,9 @@ export default function SecretaryPanel() {
             >
               Complaint Tickets
             </li>
+            <li onClick={()=>{postManagement()}}>
+              Posts Management
+            </li>
             <li
               onClick={() => {
                 settings();
@@ -124,6 +155,10 @@ export default function SecretaryPanel() {
           <div className="userManagement" id="userManagement">
             <label className="lblRegistration">Account Management</label>
             <MemberManagement />
+          </div>
+
+          <div className="postManagement" id="postManagement">
+            <PostManagement/>
           </div>
           
           <div className="complaintManagement" id="complaintManagement">

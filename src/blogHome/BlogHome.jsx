@@ -133,9 +133,15 @@ export default function BlogHome() {
             <span className="check"></span>
           </label>
         </div>
+        
       </div>
-
-      <Footer />
+      <div className="footerDiv">
+        <Footer />
+      </div>
+     
+      
+        
+      
     </>
   );
 }

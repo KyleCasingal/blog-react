@@ -170,3 +170,51 @@
   max-width: 20vw;
   transition: var(--speed);
 }
+.modal-body{
+  padding: 0;
+}
+.concernSubject{
+  height: auto;
+  display: flex;
+  align-items: stretch;
+  margin: 0;
+  width: 100%;
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+.concernSubject label{
+  
+  margin-left: 1vw;
+  font-size: 1vw;
+}
+.concernMessage{
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  border: 1px solid rgb(228, 228, 228);
+}
+.subjectText{
+  overflow:hidden;
+  outline: none;
+  margin-right: 1vw;
+  font-size: 1vw;
+  width: 100%;
+}
+.concernText{
+  overflow: hidden;
+  margin: 0;
+  outline: none;
+  font-size: 1vw;
+  width: 100%;
+}
+.concernBtn{
+  padding: 0;
+  padding-bottom: 0.5vw;
+  margin-top: -1vw;
+  margin-bottom: 0vw;
+  border: none;
+  border-bottom: 1px solid rgb(211, 211, 211);
+  background-color: rgba(0, 0, 0, 0);
+}
