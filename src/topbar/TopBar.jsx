@@ -8,6 +8,7 @@ import "./topbar.css";
 import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import logoSVgray from "../img/logoSVgray.png";
+import profile1 from "../img/profileIMG/profile1.jpg";
 
 export default function Topbar() {
   const [open, setOpen] = useState(false);
@@ -93,7 +94,7 @@ export default function Topbar() {
         >
           <img
             className="topImg1"
-            src="https://i.pinimg.com/736x/6a/6c/ca/6a6cca8ac5994554019c257af2b17b6a.jpg"
+            src={profile1}
             alt=""
           />
         </div>
