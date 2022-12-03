@@ -4,23 +4,39 @@ import "./memberPanel.css";
 import { MemoryRouter } from "react-router-dom";
 import MemberProfile from "./memberProfile";
 import MemberInbox from "./memberInbox";
+import MonthlyDuesMember from "./monthlyDuesMember";
 
 export default function MemberPanel() {
-  function profile() {
+  function showProfile() {
     var profile = document.getElementById("profile");
     var inbox = document.getElementById("inbox");
+    var duesMem = document.getElementById("duesMem");
 
     profile.style.display = "block";
     inbox.style.display = "none";
-  }
+    duesMem.style.display = "none";
+   }
 
-  function inbox() {
+  function showInbox() {
     var profile = document.getElementById("profile");
     var inbox = document.getElementById("inbox");
+    var duesMem = document.getElementById("duesMem");
 
     profile.style.display = "none";
     inbox.style.display = "block";
+    duesMem.style.display = "none";
   }
+
+  function showDuesMem(){
+    var profile = document.getElementById("profile");
+    var inbox = document.getElementById("inbox");
+    var duesMem = document.getElementById("duesMem");
+
+    profile.style.display = "none";
+    inbox.style.display = "none";
+    duesMem.style.display = "block";
+  }
+  
 
   return (
     <>
@@ -31,7 +47,7 @@ export default function MemberPanel() {
             <li
               id="profileBtn"
               onClick={() => {
-                profile();
+                showProfile();
               }}
             >
               Profile
@@ -39,11 +55,12 @@ export default function MemberPanel() {
             <li
               id="inboxBtn"
               onClick={() => {
-                inbox();
+                showInbox();
               }}
             >
               Inbox
             </li>
+            <li onClick={()=>{showDuesMem()}}>Monthly Dues</li>
           </ul>
         </div>
         <div className="memberPanel">
@@ -53,6 +70,10 @@ export default function MemberPanel() {
 
           <div className="inbox" id="inbox">
             <MemberInbox />
+          </div>
+
+          <div className="monthlyDuesMem" id="duesMem">
+            <MonthlyDuesMember />
           </div>
         </div>
       </div>

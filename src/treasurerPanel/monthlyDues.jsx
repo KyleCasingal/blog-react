@@ -41,8 +41,10 @@ export default function MonthlyDues() {
           Add Payment
         </button>
       </div>
+      
+      <label className="lblRegistration">Cart</label>
       <div class="table-responsive">
-        <label className="lblRegistration">Cart</label>
+        
         <table
           id="dtBasicExample"
           class="table tblDues"
@@ -103,7 +105,9 @@ export default function MonthlyDues() {
             </tr>
           </tbody>
         </table>
-        <div className="btnArea">
+        
+      </div>
+      <div className="btnArea">
           <button type="submit" className="btnSubmitReg">
             Checkout
           </button>
@@ -112,10 +116,10 @@ export default function MonthlyDues() {
             Remove from cart
           </button>
         </div>
-      </div>
 
+      <label className="lblRegistration">Monthly Dues</label>
       <div class="table-responsive">
-        <label className="lblRegistration">Monthly Dues</label>
+        
         <table
           id="dtBasicExample"
           class="table tblDues"

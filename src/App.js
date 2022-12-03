@@ -3,7 +3,6 @@ import Login from "./login/Login";
 import Register from "./register/Register";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Landing from "./landingPage/Landing";
-import BlogWrite from "./blogWrite/BlogWrite";
 import Amenities from "./amenities/amenities";
 import AmenitiesGuest from "./amenitiesGuest/amenitiesGuest";
 import TreasurerPanel from "./treasurerPanel/treasurerPanel";
@@ -19,7 +18,6 @@ function App() {
           <Route path="/Register" element={<Register />}></Route>
           <Route path="/Login" element={<Login />}></Route>
           <Route path="/BlogHome" element={<BlogHome />}></Route>
-          <Route path="/BlogWrite" element={<BlogWrite />}></Route>
           <Route path="/Amenities" element={<Amenities />}></Route>
           <Route path="/AmenitiesGuest" element={<AmenitiesGuest />}></Route>
           <Route path="/TreasurerPanel" element={<TreasurerPanel />}></Route>

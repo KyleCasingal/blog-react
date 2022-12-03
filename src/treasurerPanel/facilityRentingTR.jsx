@@ -56,7 +56,8 @@ export default function FacilityRentingTR() {
         </div>
       </div>
 
-      <label className="lblRegistration">Cart</label>
+      
+        <label className="lblRegistration">Cart</label>
       <table className="table tblAmenityCart">
         <thead>
           <th>

@@ -5,7 +5,7 @@ export default function MemberInbox() {
       <div className="inboxContainer">
         <table className="tblMessage">
           <tr className="trInbox">
-            <td className="msgSender">Jane Doe</td>
+            <td className="msgSender">Elizabeth Mckinney</td>
             <td className="msgDesc">
               "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
               consectetur, adipisci velit sdasdasdasdsadas"
@@ -13,7 +13,7 @@ export default function MemberInbox() {
             <td className="msgTime">9:00 pm</td>
           </tr>
           <tr className="trInbox">
-            <td className="msgSender">Jane Doe</td>
+            <td className="msgSender">Elizabeth Mckinney</td>
             <td className="msgDesc">
               "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
               consectetur, adipisci velit sdasdasdasdsadas"
@@ -21,7 +21,7 @@ export default function MemberInbox() {
             <td className="msgTime">9:00 pm</td>
           </tr>
           <tr className="trInbox">
-            <td className="msgSender">Jane Doe</td>
+            <td className="msgSender">Elizabeth Mckinney</td>
             <td className="msgDesc">
               "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
               consectetur, adipisci velit sdasdasdasdsadas"
@@ -29,7 +29,7 @@ export default function MemberInbox() {
             <td className="msgTime">9:00 pm</td>
           </tr>
           <tr className="trInbox">
-            <td className="msgSender">Jane Doe</td>
+            <td className="msgSender">Elizabeth Mckinney</td>
             <td className="msgDesc">
               "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
               consectetur, adipisci velit sdasdasdasdsadas"
@@ -37,7 +37,7 @@ export default function MemberInbox() {
             <td className="msgTime">9:00 pm</td>
           </tr>
           <tr className="trInbox">
-            <td className="msgSender">Jane Doe</td>
+            <td className="msgSender">Elizabeth Mckinney</td>
             <td className="msgDesc">
               "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
               consectetur, adipisci velit sdasdasdasdsadas"
@@ -45,7 +45,7 @@ export default function MemberInbox() {
             <td className="msgTime">9:00 pm</td>
           </tr>
           <tr className="trInbox">
-            <td className="msgSender">Jane Doe</td>
+            <td className="msgSender">Elizabeth Mckinney</td>
             <td className="msgDesc">
               "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
               consectetur, adipisci velit sdasdasdasdsadas"
@@ -53,7 +53,7 @@ export default function MemberInbox() {
             <td className="msgTime">9:00 pm</td>
           </tr>
           <tr className="trInbox">
-            <td className="msgSender">Jane Doe</td>
+            <td className="msgSender">Elizabeth Mckinney</td>
             <td className="msgDesc">
               "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
               consectetur, adipisci velit sdasdasdasdsadas"
@@ -61,7 +61,7 @@ export default function MemberInbox() {
             <td className="msgTime">9:00 pm</td>
           </tr>
           <tr className="trInbox">
-            <td className="msgSender">Jane Doe</td>
+            <td className="msgSender">Elizabeth Mckinney</td>
             <td className="msgDesc">
               "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
               consectetur, adipisci velit sdasdasdasdsadas"
@@ -69,7 +69,7 @@ export default function MemberInbox() {
             <td className="msgTime">9:00 pm</td>
           </tr>
           <tr className="trInbox">
-            <td className="msgSender">Jane Doe</td>
+            <td className="msgSender">Elizabeth Mckinney</td>
             <td className="msgDesc">
               "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
               consectetur, adipisci velit sdasdasdasdsadas"
@@ -77,7 +77,7 @@ export default function MemberInbox() {
             <td className="msgTime">9:00 pm</td>
           </tr>
           <tr className="trInbox">
-            <td className="msgSender">Jane Doe</td>
+            <td className="msgSender">Elizabeth Mckinney</td>
             <td className="msgDesc">
               "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
               consectetur, adipisci velit sdasdasdasdsadas"
@@ -85,7 +85,7 @@ export default function MemberInbox() {
             <td className="msgTime">9:00 pm</td>
           </tr>
           <tr className="trInbox">
-            <td className="msgSender">Jane Doe</td>
+            <td className="msgSender">Elizabeth Mckinney</td>
             <td className="msgDesc">
               "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
               consectetur, adipisci velit sdasdasdasdsadas"

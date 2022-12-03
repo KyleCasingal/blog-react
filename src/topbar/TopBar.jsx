@@ -74,15 +74,7 @@ export default function Topbar() {
             >
               BLOG
             </li>
-            <li
-              className="topListItem1"
-              onClick={() => {
-                darkMode();
-                navigate("/BlogWrite");
-              }}
-            >
-              WRITE
-            </li>
+            
           </ul>
         </div>
         <div className="topRight">
@@ -118,7 +110,7 @@ export default function Topbar() {
                 className="concernBtn"
                 type="button"
                 data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop"
+                data-bs-target="#complaintModal"
               >
                 <DropdownItem img={help} text={"Raise a Concern"} />
               </button>
@@ -135,17 +127,17 @@ export default function Topbar() {
       </div>
       <div
         class="modal fade"
-        id="staticBackdrop"
+        id="complaintModal"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
         tabindex="-1"
-        aria-labelledby="staticBackdropLabel"
+        aria-labelledby="complaintModalLabel"
         aria-hidden="true"
       >
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">
+              <h5 class="modal-title" id="complaintModalLabel">
                 Raise a Concern
               </h5>
               <button
@@ -186,7 +178,7 @@ export default function Topbar() {
               >
                 Close
               </button>
-              <button type="button" class="btn btn-primary">
+              <button type="button" class="btn submitConcern">
                 Submit Concern
               </button>
             </div>

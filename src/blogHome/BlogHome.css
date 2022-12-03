@@ -12,8 +12,11 @@
   z-index: 1;
 }
 .blogHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 2vw;
-  width: 60%;
+  width: 90%;
   font-weight: 800;
   margin-left: 5%;
   margin-top: 2vw;
@@ -240,4 +243,16 @@ input[type="checkbox"]:checked ~ .check:after {
 }
 .listTest {
   list-style: none;
+}
+.newPostBtn{
+  border: none;
+  text-align: center;
+  vertical-align: center ;
+  background-color: rgba(255, 255, 255, 0);
+}
+.fa-circle-plus{
+  color: darkseagreen;
+}
+.fa-circle-plus:hover{
+  color: rgb(127, 168, 127);
 }

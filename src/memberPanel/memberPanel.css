@@ -41,7 +41,7 @@
 .profileForm {
   display: flex;
   background-color: rgba(234, 232, 199, 0.2);
-  width: 80%;
+  width: 95%;
   padding: 2vw;
   margin: 2vw;
   border-radius: 1vw;
@@ -49,17 +49,17 @@
 .tblProfile {
   color: rgb(89, 89, 89);
   margin: 0;
-  margin-left: 1vw;
+  margin-left: 4vw;
   font-family: "Poppins", sans-serif;
 }
 
 .tblPRofile th,
 .tblProfile td {
+  white-space: nowrap;
   color: rgb(89, 89, 89);
   font-size: 1.2vw;
   border-style: none !important;
   text-align: left !important;
-  width: min-content;
 }
 .lbl {
   font-weight: 800;
@@ -88,6 +88,7 @@ thead {
 
 .tblPaidMonthly th,
 .tblPaidMonthly td {
+  white-space: nowrap;
   color: rgb(89, 89, 89);
   padding: 0.8vw;
   border: none !important;
@@ -190,6 +191,9 @@ thead {
   width: 100%;
   display: none;
 }
+.monthlyDuesMem{
+  display: none;
+}
 
 .inboxTitle {
   font-size: 2vw;
@@ -198,4 +202,10 @@ thead {
   margin-bottom: 1vw;
   color: rgb(89, 89, 89);
   font-weight: 800;
+}
+.editBtnProfile{
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: start;
+  height: 2vw;
 }

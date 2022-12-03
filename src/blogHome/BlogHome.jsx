@@ -1,6 +1,7 @@
 import Topbar from "../topbar/TopBar";
 import Footer from "../footer/Footer";
 import "./BlogHome.css";
+import "./BlogWrite.css"
 import postImg1 from "../img/postIMG/postImg1.jpg";
 import postImg2 from "../img/postIMG/postImg2.jpg";
 import postImg3 from "../img/postIMG/postImg3.jpg";
@@ -10,10 +11,17 @@ import postImg6 from "../img/postIMG/postImg6.jpg";
 import profileImg1 from "../img/profileIMG/profile1.jpg";
 import profileImg2 from "../img/profileIMG/profile2.jpg";
 import profileImg3 from "../img/profileIMG/profile3.jpg";
+import React, { useState } from "react";
 
 export default function BlogHome() {
   function darkMode() {
     document.body.classList.toggle("dark");
+  }
+
+  const [file, setFile] = useState();
+  function handleChange(e) {
+    console.log(e.target.files);
+    setFile(URL.createObjectURL(e.target.files[0]));
   }
 
   return (
@@ -24,8 +32,12 @@ export default function BlogHome() {
         <div className="blogScroll">
           <div className="blogHead">
             <p>Recent Posts</p>
+            <button className="newPostBtn" data-bs-toggle="modal" data-bs-target="#addPostModal">
+              <i class="fa-solid fa-circle-plus fa-2x"></i>
+            </button>
+            
           </div>
-          
+
           {/* BLOG POST CONTAINERS */}
           <div className="blogPost">
             <div className="blogProfile">
@@ -195,6 +207,87 @@ export default function BlogHome() {
       </div>
       <div className="footerDiv">
         <Footer />
+
+        <div
+        class="modal fade"
+        id="addPostModal"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="addPostModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="addPostModalLabel">
+                Add New Post
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+            <div className="writeBlog">
+        <div className="writeBlogPage">
+          <div className="formBlog">
+            <label className="writeText">Add Photos</label>
+            <div className="BlogWrite">
+              <input
+                className="attInput"
+                type="file"
+                id="image"
+                accept="image/*"
+                onChange={handleChange}
+              ></input>
+              <img
+                className="imagePrev"
+                id="imagePreview"
+                src={file}
+                alt=""
+                onError='this.style.display = "none"'
+              />
+            </div>
+            <label for="image" className="upload">
+              Upload Photo
+            </label>
+            <label>Title</label>
+            <input type="text" name="title" id="title" />
+
+            <label>Description</label>
+            <textarea
+              className="descInput"
+              type="text"
+              name="desc"
+              id="desc"
+              maxLength={500}
+            />
+
+            <label>Tags</label>
+            <input type="text" />
+            <br></br>
+          </div>
+        </div>
+      </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn submitPost">
+                Submit Post
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
     </>
   );

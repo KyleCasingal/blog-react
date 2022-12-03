@@ -71,8 +71,9 @@ export default function Billing() {
           Generate Billing
         </button>
       </div>
+      <label className="lblRegistration">Issued Billings</label>
       <div class="table-responsive">
-        <label className="lblRegistration">Issued Billings</label>
+        
         <table
           id="dtBasicExample"
           class="table tblDues"

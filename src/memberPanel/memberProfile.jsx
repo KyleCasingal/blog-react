@@ -1,3 +1,5 @@
+import profile1 from "../img/profileIMG/profile1.jpg";
+
 export default function MemberProfile() {
   return (
     <>
@@ -5,17 +7,16 @@ export default function MemberProfile() {
       <div className="profileForm">
         <img
           className="profileImg"
-          src="https://i.pinimg.com/736x/6a/6c/ca/6a6cca8ac5994554019c257af2b17b6a.jpg"
+          src={profile1}
           alt=""
         />
+        
         <table className="table tblProfile">
+          
           <tbody>
             <tr>
               <td className="lbl">Name:</td>
-              <td className="data">Nene Yashiro</td>
-              <td className="editBtn">
-                <i className="fa-solid fa-pen fa-2x"></i>
-              </td>
+              <td className="data">Elizabeth Mckinney</td>
             </tr>
             <tr>
               <td className="lbl">Date of Birth:</td>
@@ -47,6 +48,8 @@ export default function MemberProfile() {
             </tr>
           </tbody>
         </table>
+        <button className="editBtnProfile"><i className="fa-solid fa-pen fa-2x"></i></button>
+        
       </div>
       <div class="table-responsive">
         <label className="lblTable">Paid Monthly Dues</label>
@@ -62,32 +65,42 @@ export default function MemberProfile() {
               <th>Month</th>
               <th>Year</th>
               <th>Address</th>
+              <th>Amount Paid</th>
+              <th>Date Paid</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Jane Doe</td>
+              <td>Elizabeth Mckinney</td>
               <td>October</td>
               <td>2022</td>
               <td>blk 1 lot 2</td>
+              <td>200</td>
+              <td>12/04/2022</td>
             </tr>
             <tr>
-              <td>Jane Doe</td>
+              <td>Elizabeth Mckinney</td>
               <td>October</td>
               <td>2022</td>
               <td>blk 1 lot 2</td>
+              <td>200</td>
+              <td>12/04/2022</td>
             </tr>
             <tr>
-              <td>Jane Doe</td>
+              <td>Elizabeth Mckinney</td>
               <td>October</td>
               <td>2022</td>
               <td>blk 1 lot 2</td>
+              <td>200</td>
+              <td>12/04/2022</td>
             </tr>
             <tr>
-              <td>Jane Doe</td>
+              <td>Elizabeth Mckinney</td>
               <td>October</td>
               <td>2022</td>
               <td>blk 1 lot 2</td>
+              <td>200</td>
+              <td>12/04/2022</td>
             </tr>
           </tbody>
         </table>
