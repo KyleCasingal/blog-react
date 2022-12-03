@@ -1,0 +1,60 @@
+.reportBody {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.reportPage{
+    width: 1000px;
+}
+.head {
+   
+    padding-bottom: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reportHeader {
+    padding:0;
+    margin: 0;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.reportSubtext {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+.reportContainer {
+   
+    height: 800px;
+}
+
+.tblTitle {
+   
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.tblReportData {
+    margin-top: 2vw;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tblReportData thead {
+    background-color: darkgray;
+    padding: 0;
+    margin: 0;
+}
+
+.tblReportData th,
+.tblReportData td {
+    border: 1px solid black;
+    padding: 0.5vw;
+    text-align: center;
+
+}
