@@ -76,6 +76,19 @@
 .btnClearReg:hover {
   background-color: rgb(180, 83, 83);
 }
+.btnPrint{
+  background-color: lightblue;
+  border: 0;
+  padding: 0.5vw;
+  max-width: 50vw;
+  width: 15vw;
+  font-family: "Poppins", sans-sans-serif;
+  font-size: 1.5vw;
+  margin-top: 2vw;
+  color: white;
+  border-radius: 0.8vw;
+  cursor: pointer;
+}
 .lblRegistration {
   font-size: 2vw;
   font-family: "Poppins", sans-serif;
@@ -331,5 +344,17 @@
 .buttonArea {
   margin: 2vw;
   display: flex;
-  flex-direction: column;
+  gap: 1vw;
+}
+.reportAmenities{
+  display: none;
+}
+.reportMonthlyDues{
+  display: none;
+}
+.reportBilling{
+  display: none;
+}
+.reportAuditTrail{
+  display: none;
 }
