@@ -78,6 +78,14 @@ export default function Settings() {
                 <input type="text" placeholder="barangay" />
               </td>
             </tr>
+            <tr>
+              <td>Contact No:</td>
+              <td><input type="text" placeholder="contact no"/></td>
+            </tr>
+            <tr>
+              <td>Subdivision Image:</td>
+              <td><input type="file" /> <button className="upload">Upload Image</button></td>
+            </tr>
           </table>
           <div className="btnArea">
             <button type="submit" className="btnSubmitReg">
@@ -94,22 +102,27 @@ export default function Settings() {
             <thead>
               <th>Subdivision</th>
               <th>Barangay</th>
+              <th>Contact No.</th>
             </thead>
             <tr>
               <td>Sunnyvale 1</td>
               <td>Pantok</td>
+              <td>8123-4567</td>
             </tr>
             <tr>
               <td>Sunnyvale 2</td>
               <td>Palangoy</td>
+              <td>8123-4567</td>
             </tr>
             <tr>
               <td>Sunnyvale 3</td>
               <td>Palangoy</td>
+              <td>8123-4567</td>
             </tr>
             <tr>
               <td>Sunnyvale 4</td>
               <td>Pantok</td>
+              <td>8123-4567</td>
             </tr>
           </table>
         </div>
