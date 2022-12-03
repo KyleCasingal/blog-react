@@ -110,7 +110,6 @@ export default function FacilityRentingTR() {
       <label className="lblRegistration">Scheduled Amenities</label>
       <table className="table tblAmenityCart">
         <thead>
-         
           <th>Name</th>
           <th>Time</th>
           <th>Date</th>
@@ -119,7 +118,6 @@ export default function FacilityRentingTR() {
           <th>Payment Status</th>
         </thead>
         <tr>
-         
           <td>Jane Doe</td>
           <td>6:00 pm to 8:00 pm</td>
           <td>11/22/2022</td>
@@ -128,7 +126,6 @@ export default function FacilityRentingTR() {
           <td>Fully Paid</td>
         </tr>
         <tr>
-          
           <td>Jane Doe</td>
           <td>7:00 pm to 9:00 pm</td>
           <td>11/23/2022</td>
@@ -137,7 +134,6 @@ export default function FacilityRentingTR() {
           <td>Fully Paid</td>
         </tr>
         <tr>
-          
           <td>Jane Doe</td>
           <td>7:00 pm to 8:00 pm</td>
           <td>11/24/2022</td>

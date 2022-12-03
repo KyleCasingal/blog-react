@@ -186,7 +186,7 @@ input[type="checkbox"] {
 input[type="checkbox"]:checked ~ .check {
   z-index: -999;
   background: #fff;
-  box-shadow: 0 0 0 99999vw #141d26 ;
+  box-shadow: 0 0 0 99999vw #141d26;
 }
 
 .check:before {
@@ -234,10 +234,10 @@ input[type="checkbox"]:checked ~ .check:after {
 .sideText {
   color: var(--text);
 }
-.footerDiv{
+.footerDiv {
   position: relative;
   bottom: 0;
 }
-.listTest{
+.listTest {
   list-style: none;
 }

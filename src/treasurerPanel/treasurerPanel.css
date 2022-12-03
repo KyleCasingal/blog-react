@@ -92,7 +92,6 @@ td {
 .sideBar {
   background-color: rgb(248, 245, 227);
   flex: 2;
-  
 }
 .treasurerSideBar {
   top: 4.5vw;
@@ -117,11 +116,11 @@ td {
   background-color: rgb(236, 235, 226);
 }
 .tblDues th,
-.tblDues td{
+.tblDues td {
   border: none !important;
   text-align: center;
 }
-.tblDues input[type="checkbox"]{
+.tblDues input[type="checkbox"] {
   appearance: auto;
   -webkit-appearance: auto;
   visibility: visible;

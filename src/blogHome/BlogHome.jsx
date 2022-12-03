@@ -26,22 +26,14 @@ export default function BlogHome() {
           </div>
           <div className="blogPost">
             <div className="blogProfile">
-              <img
-                className="avatarBlog"
-                src={profileImg1}
-                alt=""
-              />
+              <img className="avatarBlog" src={profileImg1} alt="" />
               <div className="profileText">
                 <label className="profileName">Elizabeth Mckinney</label>
                 <label className="profileDate">4:57 pm 10/30/2022</label>
               </div>
             </div>
             <div className="postContent">
-              <img
-                className="blogImg"
-                src={postImg1}
-                alt=""
-              ></img>
+              <img className="blogImg" src={postImg1} alt=""></img>
               <p className="blogTitle">Lorem Ipsum</p>
               <p className="blogBody">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -57,22 +49,14 @@ export default function BlogHome() {
 
           <div className="blogPost">
             <div className="blogProfile">
-              <img
-                className="avatarBlog"
-                src={profileImg2}
-                alt=""
-              />
+              <img className="avatarBlog" src={profileImg2} alt="" />
               <div className="profileText">
                 <label className="profileName">Garth Dolton</label>
                 <label className="profileDate">5:32 pm 10/30/2022</label>
               </div>
             </div>
             <div className="postContent">
-              <img
-                className="blogImg"
-                src={postImg2}
-                alt=""
-              ></img>
+              <img className="blogImg" src={postImg2} alt=""></img>
               <p className="blogTitle">Lorem Ipsum</p>
               <p className="blogBody">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -88,22 +72,14 @@ export default function BlogHome() {
 
           <div className="blogPost">
             <div className="blogProfile">
-              <img
-                className="avatarBlog"
-                src={profileImg3}
-                alt=""
-              />
+              <img className="avatarBlog" src={profileImg3} alt="" />
               <div className="profileText">
                 <label className="profileName">Ruby Todd</label>
                 <label className="profileDate">5:57 pm 10/30/2022</label>
               </div>
             </div>
             <div className="postContent">
-              <img
-                className="blogImg"
-                src={postImg3}
-                alt=""
-              ></img>
+              <img className="blogImg" src={postImg3} alt=""></img>
               <p className="blogTitle">Lorem Ipsum</p>
               <p className="blogBody">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -119,22 +95,14 @@ export default function BlogHome() {
 
           <div className="blogPost">
             <div className="blogProfile">
-              <img
-                className="avatarBlog"
-                src={profileImg1}
-                alt=""
-              />
+              <img className="avatarBlog" src={profileImg1} alt="" />
               <div className="profileText">
                 <label className="profileName">Elizabeth Mckinney</label>
                 <label className="profileDate">4:57 pm 10/30/2022</label>
               </div>
             </div>
             <div className="postContent">
-              <img
-                className="blogImg"
-                src=""
-                alt=""
-              ></img>
+              <img className="blogImg" src="" alt=""></img>
               <p className="blogTitle">Lorem Ipsum</p>
               <p className="blogBody">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -150,22 +118,14 @@ export default function BlogHome() {
 
           <div className="blogPost">
             <div className="blogProfile">
-              <img
-                className="avatarBlog"
-                src={profileImg2}
-                alt=""
-              />
+              <img className="avatarBlog" src={profileImg2} alt="" />
               <div className="profileText">
                 <label className="profileName">Garth Dolton</label>
                 <label className="profileDate">5:32 pm 10/30/2022</label>
               </div>
             </div>
             <div className="postContent">
-              <img
-                className="blogImg"
-                src=""
-                alt=""
-              ></img>
+              <img className="blogImg" src="" alt=""></img>
               <p className="blogTitle">Lorem Ipsum</p>
               <p className="blogBody">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -181,22 +141,14 @@ export default function BlogHome() {
 
           <div className="blogPost">
             <div className="blogProfile">
-              <img
-                className="avatarBlog"
-                src={profileImg3}
-                alt=""
-              />
+              <img className="avatarBlog" src={profileImg3} alt="" />
               <div className="profileText">
                 <label className="profileName">Ruby Todd</label>
                 <label className="profileDate">5:57 pm 10/30/2022</label>
               </div>
             </div>
             <div className="postContent">
-              <img
-                className="blogImg"
-                src=""
-                alt=""
-              ></img>
+              <img className="blogImg" src="" alt=""></img>
               <p className="blogTitle">Lorem Ipsum</p>
               <p className="blogBody">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -209,7 +161,6 @@ export default function BlogHome() {
               </p>
             </div>
           </div>
-
         </div>
         <div className="side">
           <div class="sideContent">
@@ -236,15 +187,10 @@ export default function BlogHome() {
             <span className="check"></span>
           </label>
         </div>
-        
       </div>
       <div className="footerDiv">
         <Footer />
       </div>
-     
-      
-        
-      
     </>
   );
 }

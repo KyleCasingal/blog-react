@@ -53,7 +53,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-.tblPRofile  th,
+.tblPRofile th,
 .tblProfile td {
   color: rgb(89, 89, 89);
   font-size: 1.2vw;
@@ -154,7 +154,7 @@ thead {
   height: 100%;
   max-height: 30px;
 }
-.tblMessage td{
+.tblMessage td {
   border: none !important;
 }
 .trInbox {

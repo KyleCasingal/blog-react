@@ -47,10 +47,10 @@ export default function TreasurerPanel() {
         </div>
         <div className="treasurerPanel">
           <div className="monthlyDues" id="monthlyDues">
-            <MonthlyDues/>
+            <MonthlyDues />
           </div>
           <div className="facilityRenting" id="facilityRenting">
-            <FacilityRentingTR/>
+            <FacilityRentingTR />
           </div>
         </div>
       </div>

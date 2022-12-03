@@ -55,7 +55,7 @@ label {
   max-height: 20vw;
   margin-bottom: 1vw;
 }
-.tblAmenityCart{
+.tblAmenityCart {
   font-size: 1vw;
   margin-bottom: 2vw;
   overflow-x: auto;
@@ -66,14 +66,13 @@ label {
   max-width: 100%;
 }
 .tblAmenityCart th,
-.tblAmenityCart td{
+.tblAmenityCart td {
   padding: 1vw;
   border: none !important;
 }
-.tblAmenityCart input[type="checkbox"]{
+.tblAmenityCart input[type="checkbox"] {
   appearance: auto;
   -webkit-appearance: auto;
   visibility: visible;
   display: block;
 }
-

@@ -170,10 +170,10 @@
   max-width: 20vw;
   transition: var(--speed);
 }
-.modal-body{
+.modal-body {
   padding: 0;
 }
-.concernSubject{
+.concernSubject {
   height: auto;
   display: flex;
   align-items: stretch;
@@ -181,12 +181,11 @@
   width: 100%;
   border-bottom: 1px solid rgb(228, 228, 228);
 }
-.concernSubject label{
-  
+.concernSubject label {
   margin-left: 1vw;
   font-size: 1vw;
 }
-.concernMessage{
+.concernMessage {
   height: auto;
   display: flex;
   align-items: center;
@@ -195,21 +194,21 @@
   width: 100%;
   border: 1px solid rgb(228, 228, 228);
 }
-.subjectText{
-  overflow:hidden;
+.subjectText {
+  overflow: hidden;
   outline: none;
   margin-right: 1vw;
   font-size: 1vw;
   width: 100%;
 }
-.concernText{
+.concernText {
   overflow: hidden;
   margin: 0;
   outline: none;
   font-size: 1vw;
   width: 100%;
 }
-.concernBtn{
+.concernBtn {
   padding: 0;
   padding-bottom: 0.5vw;
   margin-top: -1vw;
