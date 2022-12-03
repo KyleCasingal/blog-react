@@ -3,22 +3,39 @@ import Footer from "../footer/Footer";
 import "./treasurerPanel.css";
 import MonthlyDues from "./monthlyDues";
 import FacilityRentingTR from "./facilityRentingTR";
+import Billing from "./billing";
 
 export default function TreasurerPanel() {
   function showFaciltyRent() {
     var facility = document.getElementById("facilityRenting");
     var dues = document.getElementById("monthlyDues");
+    var bills = document.getElementById("billing");
 
     facility.style.display = "block";
     dues.style.display = "none";
+    bills.style.display = "none";
+
   }
 
   function showMonthlyDues() {
     var facility = document.getElementById("facilityRenting");
     var dues = document.getElementById("monthlyDues");
+    var bills = document.getElementById("billing");
 
     facility.style.display = "none";
     dues.style.display = "block";
+    bills.style.display = "none";
+  }
+
+  function showBilling() {
+    var facility = document.getElementById("facilityRenting");
+    var dues = document.getElementById("monthlyDues");
+    var bills = document.getElementById("billing");
+
+    facility.style.display = "none";
+    dues.style.display = "none";
+    bills.style.display = "block";
+
   }
 
   return (
@@ -43,6 +60,7 @@ export default function TreasurerPanel() {
             >
               Monthly Dues
             </li>
+            <li id="bill" onClick={()=>{showBilling()}}>Billing</li>
           </ul>
         </div>
         <div className="treasurerPanel">
@@ -51,6 +69,9 @@ export default function TreasurerPanel() {
           </div>
           <div className="facilityRenting" id="facilityRenting">
             <FacilityRentingTR />
+          </div>
+          <div className="billing" id="billing">
+            <Billing />
           </div>
         </div>
       </div>

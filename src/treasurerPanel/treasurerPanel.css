@@ -126,3 +126,9 @@ td {
   visibility: visible;
   display: block;
 }
+.monthlyDues{
+  visibility: none;
+}
+.billing{
+  display: none;
+}

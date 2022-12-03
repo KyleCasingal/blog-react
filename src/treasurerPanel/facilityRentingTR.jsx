@@ -41,7 +41,13 @@ export default function FacilityRentingTR() {
             <option value="Multi-purpose Hall">Multi-purpose Hall</option>
           </select>
 
-          <label>Amount:</label>
+          <label> Total Amount:</label>
+          <input type="text" readOnly />
+
+          <label>Paid Amount:</label>
+          <input type="text" readOnly />
+
+          <label>Change:</label>
           <input type="text" readOnly />
 
           <button className="btnSubmitPost" name="submitPost" id="submitPost">

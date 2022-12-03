@@ -57,8 +57,7 @@ export default function MonthlyDues() {
               <th>Name</th>
               <th>Month</th>
               <th>Year</th>
-              <th>Address</th>
-              <th>Payment status</th>
+              <th>Status</th>              
             </tr>
           </thead>
           <tbody>
@@ -69,8 +68,8 @@ export default function MonthlyDues() {
               <td>Jane Doe</td>
               <td>October</td>
               <td>2022</td>
-              <td>blk 1 lot 2</td>
-              <td>Fully Paid</td>
+              <td>Pending</td>
+              
             </tr>
             <tr>
               <td>
@@ -79,8 +78,8 @@ export default function MonthlyDues() {
               <td>Jane Doe</td>
               <td>October</td>
               <td>2022</td>
-              <td>blk 1 lot 2</td>
-              <td>Fully Paid</td>
+              <td>Pending</td>
+              
             </tr>
             <tr>
               <td>
@@ -89,8 +88,8 @@ export default function MonthlyDues() {
               <td>Jane Doe</td>
               <td>October</td>
               <td>2022</td>
-              <td>blk 1 lot 2</td>
-              <td>Fully Paid</td>
+              <td>Pending</td>
+              
             </tr>
             <tr>
               <td>
@@ -99,8 +98,8 @@ export default function MonthlyDues() {
               <td>Jane Doe</td>
               <td>October</td>
               <td>2022</td>
-              <td>blk 1 lot 2</td>
-              <td>Fully Paid</td>
+              <td>Pending</td>
+              
             </tr>
           </tbody>
         </table>
@@ -129,7 +128,8 @@ export default function MonthlyDues() {
               <th>Month</th>
               <th>Year</th>
               <th>Address</th>
-              <th>Payment status</th>
+              <th>Amount Paid</th>
+              <th>Date Paid</th>
             </tr>
           </thead>
           <tbody>
@@ -138,28 +138,32 @@ export default function MonthlyDues() {
               <td>October</td>
               <td>2022</td>
               <td>blk 1 lot 2</td>
-              <td>Fully Paid</td>
+              <td>200</td>
+              <td>12/04/2022</td>
             </tr>
             <tr>
               <td>Jane Doe</td>
               <td>October</td>
               <td>2022</td>
               <td>blk 1 lot 2</td>
-              <td>Fully Paid</td>
+              <td>200</td>
+              <td>12/04/2022</td>
             </tr>
             <tr>
               <td>Jane Doe</td>
               <td>October</td>
               <td>2022</td>
               <td>blk 1 lot 2</td>
-              <td>Fully Paid</td>
+              <td>200</td>
+              <td>12/04/2022</td>
             </tr>
             <tr>
               <td>Jane Doe</td>
               <td>October</td>
               <td>2022</td>
               <td>blk 1 lot 2</td>
-              <td>Fully Paid</td>
+              <td>200</td>
+              <td>12/04/2022</td>
             </tr>
           </tbody>
         </table>
