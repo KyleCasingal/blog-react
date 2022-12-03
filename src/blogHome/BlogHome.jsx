@@ -19,11 +19,14 @@ export default function BlogHome() {
   return (
     <>
       <Topbar />
+      {/* BLOGHOME PAGE */}
       <div className="blogHome">
         <div className="blogScroll">
           <div className="blogHead">
             <p>Recent Posts</p>
           </div>
+          
+          {/* BLOG POST CONTAINERS */}
           <div className="blogPost">
             <div className="blogProfile">
               <img className="avatarBlog" src={profileImg1} alt="" />
@@ -162,6 +165,8 @@ export default function BlogHome() {
             </div>
           </div>
         </div>
+
+        {/* SIDE PANEL */}
         <div className="side">
           <div class="sideContent">
             <div className="sideText">

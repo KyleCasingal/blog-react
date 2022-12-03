@@ -13,6 +13,7 @@ export default function AmenitiesGuest() {
   return (
     <>
       <TopbarLanding />
+      {/* AMENITIES FORM */}
       <div className="amenities">
         <div className="amenitiesForm">
           <label>Name:</label>
@@ -82,6 +83,7 @@ export default function AmenitiesGuest() {
         </div>
       </div>
 
+      {/* CART */}
       <label className="lblRegistration">Cart</label>
       <table className="table tblAmenityCart">
         <thead>
@@ -139,6 +141,7 @@ export default function AmenitiesGuest() {
         </button>
       </div>
 
+      {/* SCHEDULED FACILITIES */}
       <label className="lblRegistration">Scheduled Amenities</label>
       <table className="table tblAmenityCart">
         <thead>
