@@ -126,7 +126,7 @@ export default function AmenitiesGuest() {
           <td>11/24/2022</td>
           <td>Basketball Court</td>
           <td>300</td>
-          <td>Half Paid</td>
+          <td>Fully paid</td>
         </tr>
       </table>
       <div className="btnArea">
