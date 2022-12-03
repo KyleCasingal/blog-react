@@ -1,0 +1,97 @@
+input {
+  padding: 0.5vw;
+  max-width: 50vw;
+  height: 2vw;
+  font-size: 1.2vw;
+  border: 0;
+  border-radius: 0.8vw;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1vw;
+}
+input[type="file"] {
+  display: none;
+}
+label {
+  font-size: 2vw;
+  padding: 0.5vw;
+}
+textarea {
+  margin-bottom: 1vw;
+  padding: 0.5vw;
+  font-size: 1.2vw;
+  border: 0;
+  border-radius: 0.8vw;
+  max-width: 50vw;
+  min-height: 1vw;
+  height: 4vw;
+  overflow-x: auto;
+  resize: vertical;
+  font-family: "Poppins", sans-serif;
+}
+.upload {
+  text-align: center;
+  background-color: rgb(248, 186, 55);
+  border: 0;
+  padding: 0.5vw;
+  max-width: 50vw;
+  width: 15vw;
+  font-family: "Poppins", sans-sans-serif;
+  font-size: 1.5vw;
+  color: white;
+  border-radius: 0.8vw;
+  cursor: pointer;
+  margin-bottom: 1vw;
+}
+.upload:hover {
+  background-color: rgb(253, 200, 86);
+}
+.formBlog {
+  display: flex;
+  justify-content: center;
+  padding: 1vw;
+  margin: 0;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  width: 95%;
+  border-radius: 1vw;
+  flex-direction: column;
+  /* background-color: rgba(234, 232, 199, 0.2); */
+  font-family: "Poppins", sans-serif;
+}
+.writeBlogPage {
+  margin-left: 3vw;
+}
+.attInput {
+  height: 4vw;
+  border-radius: 0;
+}
+
+.btnSubmitPost {
+  background-color: darkseagreen;
+  border: 0;
+  padding: 0.5vw;
+  max-width: 50vw;
+  width: 15vw;
+  font-family: "Poppins", sans-sans-serif;
+  font-size: 1.5vw;
+  margin-top: 2vw;
+  color: white;
+  border-radius: 0.8vw;
+  cursor: pointer;
+}
+.btnSubmitPost:hover {
+  background-color: rgb(167, 197, 167);
+}
+.imagePrev {
+  max-width: 60vw;
+  max-height: 20vw;
+  margin-bottom: 1vw;
+}
+.submitPost{
+  background-color: darkseagreen;
+  color: white;
+}
+.submitPost:hover{
+  background-color: rgb(127, 168, 127);
+  color: white;
+}
