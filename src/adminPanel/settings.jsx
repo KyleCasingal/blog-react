@@ -8,6 +8,17 @@ export default function Settings() {
       <div className="settingsAddAmenity" id="AddAmenity">
         <div className="addAmenityForm">
           <table className="tblAmenityForm">
+          <tr>
+              <td>Subdivision:</td>
+              <td>
+                <select name="" id="">
+                  <option value="Sunnyvale 1">Sunnyvale 1</option>
+                  <option value="Sunnyvale 2">Sunnyvale 2</option>
+                  <option value="Sunnyvale 3">Sunnyvale 3</option>
+                  <option value="Sunnyvale 4">Sunnyvale 4</option>
+                </select>
+              </td>
+            </tr>
             <tr>
               <td>Amenity:</td>
               <td>
@@ -43,16 +54,19 @@ export default function Settings() {
         <div className="tblAmenityContainer">
           <table className="table tblAmenity">
             <thead>
+              <th>Subdivision</th>
               <th>Amenity</th>
               <th>Rate</th>
               <th>Availabiliity</th>
             </thead>
             <tr>
+              <td>Sunnyvale 1</td>
               <td>BasketBall Court</td>
               <td>150</td>
               <td>Available</td>
             </tr>
             <tr>
+              <td>Sunnyvale 2</td>
               <td>Multi-purpose hall</td>
               <td>200</td>
               <td>Available</td>
@@ -228,11 +242,11 @@ export default function Settings() {
           </table>
           <div className="btnArea">
             <button type="submit" className="btnSubmitReg">
-              Add Officer
+              Add account
             </button>
 
             <button type="submit" className="btnClearReg">
-              Update Officer
+              Update account
             </button>
           </div>
         </div>
@@ -316,11 +330,11 @@ export default function Settings() {
           </table>
           <div className="btnArea">
             <button type="submit" className="btnSubmitReg">
-              Add account
+              Add officer
             </button>
 
             <button type="submit" className="btnClearReg">
-              Update Account
+              Update officer
             </button>
           </div>
         </div>

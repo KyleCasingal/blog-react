@@ -4,6 +4,7 @@ import inbox from "../img/envelope.png";
 import settings from "../img/settings.png";
 import help from "../img/question.png";
 import logout from "../img/log-out.png";
+import transaction from "../img/transaction.png";
 import "./topbar.css";
 import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
@@ -74,7 +75,6 @@ export default function Topbar() {
             >
               BLOG
             </li>
-            
           </ul>
         </div>
         <div className="topRight">
@@ -92,7 +92,7 @@ export default function Topbar() {
           <h3 className="uName">
             Elizabeth Mckinney
             <br />
-            <span className="uType">Member</span>
+            <span className="uType">Admin</span>
           </h3>
           <ul>
             <div
@@ -104,6 +104,20 @@ export default function Topbar() {
             </div>
             <div>
               <DropdownItem img={inbox} text={"Inbox"} />
+            </div>
+            <div
+              onClick={() => {
+                navigate("/AdminPanel");
+              }}
+            >
+              <DropdownItem img={settings} text={"Settings"} />
+            </div>
+            <div
+              onClick={() => {
+                navigate("/TreasurerPanel");
+              }}
+            >
+              <DropdownItem img={transaction} text={"Transactions"} />
             </div>
             <div>
               <button
