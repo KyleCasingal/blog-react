@@ -106,11 +106,11 @@ export default function FacilityRentingTR() {
       </table>
       <div className="btnArea">
         <button type="submit" className="btnSubmitReg">
-          Checkout
+          Process Payment
         </button>
 
         <button type="submit" className="btnClearReg">
-          Remove from cart
+          Remove
         </button>
       </div>
 
