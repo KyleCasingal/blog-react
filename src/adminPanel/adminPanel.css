@@ -358,8 +358,4 @@
 .reportAuditTrail{
   display: none;
 }
-.settingsButtons{
-  margin: 2vw;
-  display: flex;
-  gap: 1vw;
-}
+

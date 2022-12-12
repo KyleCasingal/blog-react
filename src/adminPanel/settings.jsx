@@ -1,22 +1,8 @@
 export default function Settings() {
   return (
     <>
-      <div className="settingsButtons">
-        <button type="submit" className="btnSubmitReg">
-          Subdivision
-        </button>
-        <button type="submit" className="btnSubmitReg">
-          Accounts
-        </button>
-        <button type="submit" className="btnSubmitReg">
-          Transactions
-        </button>
-        
-      </div>
       {/* AMENITIES SECTION */}
-      <label className="lblSettings" id="amenity">
-        Amenities
-      </label>
+      <label className="lblSettings">Amenities</label>
       <div className="settingsAddAmenity" id="AddAmenity">
         <div className="addAmenityForm">
           <table className="tblAmenityForm">

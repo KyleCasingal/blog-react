@@ -81,7 +81,7 @@ export default function Reports() {
             Amenity Renting
           </button>
           <button type="submit" className="btnSubmitReg" onClick={()=>{showReportMonthlyDues()}}>
-            Paid Dues
+            Collection Report
           </button>
           <button type="submit" className="btnSubmitReg" onClick={()=>{showReportBilling()}}>
             Billing 
