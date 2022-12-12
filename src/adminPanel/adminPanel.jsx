@@ -137,12 +137,23 @@ export default function AdminPanel() {
             >
               Posts Management
             </li>
-            <li
-              onClick={() => {
-                settings();
-              }}
-            >
-              Settings
+
+
+            <li>
+              <button
+                className="btnChevron"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Settings <i class="fa-solid fa-circle-chevron-right"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li className="settingsDropdown">Amenities</li>
+                <li className="settingsDropdown">Subdivision</li>
+                <li className="settingsDropdown">Monthly Dues</li>
+                <li className="settingsDropdown">System Accounts</li>
+                <li className="settingsDropdown">Subdivision Officers</li>
+              </ul>
             </li>
             <li
               onClick={() => {
