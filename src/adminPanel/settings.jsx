@@ -1,6 +1,18 @@
 export default function Settings() {
   return (
     <>
+      <div className="settingsButtons">
+        <button type="submit" className="btnSubmitReg">
+          Subdivision
+        </button>
+        <button type="submit" className="btnSubmitReg">
+          Accounts
+        </button>
+        <button type="submit" className="btnSubmitReg">
+          Transactions
+        </button>
+        
+      </div>
       {/* AMENITIES SECTION */}
       <label className="lblSettings" id="amenity">
         Amenities
@@ -8,7 +20,7 @@ export default function Settings() {
       <div className="settingsAddAmenity" id="AddAmenity">
         <div className="addAmenityForm">
           <table className="tblAmenityForm">
-          <tr>
+            <tr>
               <td>Subdivision:</td>
               <td>
                 <select name="" id="">
@@ -94,11 +106,16 @@ export default function Settings() {
             </tr>
             <tr>
               <td>Contact No:</td>
-              <td><input type="text" placeholder="contact no"/></td>
+              <td>
+                <input type="text" placeholder="contact no" />
+              </td>
             </tr>
             <tr>
               <td>Subdivision Image:</td>
-              <td><input type="file" /> <button className="upload">Upload Image</button></td>
+              <td>
+                <input type="file" />{" "}
+                <button className="upload">Upload Image</button>
+              </td>
             </tr>
           </table>
           <div className="btnArea">
