@@ -29,3 +29,21 @@ html {
   width: 100%;
   height: auto;
 }
+.landingRecentContent{
+  margin: 2em 5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.landingIntroduction{
+  margin: 2em 20em;
+}
+.landingTitles{
+  font-size: 2em;
+  color: rgb(50, 50, 50);
+}
+.landingText{
+  color: rgb(89, 89, 89);
+  font-size: 1em;
+  text-align: justify;
+}
