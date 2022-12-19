@@ -36,6 +36,8 @@ function App() {
           <Route path="/ReportAmenities" element={<ReportAmenities />}></Route>
           <Route path="/ReportMonthlyDues" element={<ReportMonthlyDues />}></Route>
 
+          {/* SETTINGS */}
+          
         </Routes>
       </Router>
     </div>

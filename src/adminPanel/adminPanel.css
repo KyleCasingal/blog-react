@@ -240,7 +240,20 @@
 .complaintManagement {
   display: none;
 }
-.settings {
+
+.AMENITIES{
+  display: none;
+}
+.SUBDIVISION{
+  display: none;
+}
+.DUES{
+  display: none;
+}
+.SYSTEM-ACCOUNTS{
+  display: none;
+}
+.OFFICERS{
   display: none;
 }
 .postManagement {
