@@ -30,7 +30,7 @@
 .secretarySideBar li:hover {
   background-color: rgb(236, 235, 226);
 }
-.secretaryPanel {
+.adminPanel {
   flex: 8;
   width: 100%;
   overflow-x: hidden;

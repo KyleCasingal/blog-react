@@ -164,7 +164,7 @@ export default function AdminPanel() {
             </li>
           </ul>
         </div>
-        <div className="secretaryPanel">
+        <div className="adminPanel">
           <div className="homeownerRegistration" id="homeownerRegistration">
             <label className="lblRegistration">Registration</label>
             <HomeownerRegistration />
