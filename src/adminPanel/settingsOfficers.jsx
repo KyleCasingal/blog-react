@@ -57,8 +57,8 @@ export default function SettingsOfficers() {
               </thead>
               <tr>
                 <td>Sadie Wheeler</td>
-                <td>Sunnyvale 1</td>
-                <td>President</td>
+                            <td>Sunnyvale 1</td>
+                            <td>President</td>
               </tr>
               <tr>
                 <td>Bennett Cooke</td>
