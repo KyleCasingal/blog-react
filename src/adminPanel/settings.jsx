@@ -2,6 +2,7 @@ export default function Settings() {
   return (
     <>
       {/* AMENITIES SECTION */}
+  
       <label className="lblSettings">Amenities</label>
       <div className="settingsAddAmenity" id="AddAmenity">
         <div className="addAmenityForm">
